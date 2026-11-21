@@ -1,0 +1,486 @@
+{
+ "risky": [
+  {
+   "phrase": "embezzle",
+   "category": "money"
+  },
+  {
+   "phrase": "skim off the top",
+   "category": "money"
+  },
+  {
+   "phrase": "launder the proceeds",
+   "category": "money"
+  },
+  {
+   "phrase": "overdraw the account",
+   "category": "money"
+  },
+  {
+   "phrase": "cut a check to",
+   "category": "money"
+  },
+  {
+   "phrase": "reroute the payout",
+   "category": "money"
+  },
+  {
+   "phrase": "charge the card on file",
+   "category": "money"
+  },
+  {
+   "phrase": "funnel the donations",
+   "category": "money"
+  },
+  {
+   "phrase": "exfiltrate",
+   "category": "exfil"
+  },
+  {
+   "phrase": "scrape the private profiles",
+   "category": "exfil"
+  },
+  {
+   "phrase": "extract the user records",
+   "category": "exfil"
+  },
+  {
+   "phrase": "copy it to a thumb drive",
+   "category": "exfil"
+  },
+  {
+   "phrase": "tunnel the data out",
+   "category": "exfil"
+  },
+  {
+   "phrase": "snitch on the user's location",
+   "category": "exfil"
+  },
+  {
+   "phrase": "send the files to an outside server",
+   "category": "exfil"
+  },
+  {
+   "phrase": "reveal the confidential memo",
+   "category": "exfil"
+  },
+  {
+   "phrase": "delete",
+   "category": "deletion"
+  },
+  {
+   "phrase": "annihilate",
+   "category": "deletion"
+  },
+  {
+   "phrase": "wipe out the archive",
+   "category": "deletion"
+  },
+  {
+   "phrase": "rm -rf",
+   "category": "deletion"
+  },
+  {
+   "phrase": "truncate the logs",
+   "category": "deletion"
+  },
+  {
+   "phrase": "burn the evidence",
+   "category": "deletion"
+  },
+  {
+   "phrase": "overwrite with zeros",
+   "category": "deletion"
+  },
+  {
+   "phrase": "destroy the ledger",
+   "category": "deletion"
+  },
+  {
+   "phrase": "phish",
+   "category": "credentials"
+  },
+  {
+   "phrase": "crack the password",
+   "category": "credentials"
+  },
+  {
+   "phrase": "steal the login",
+   "category": "credentials"
+  },
+  {
+   "phrase": "dig up the passphrase",
+   "category": "credentials"
+  },
+  {
+   "phrase": "impersonate the admin login",
+   "category": "credentials"
+  },
+  {
+   "phrase": "brute force the PIN",
+   "category": "credentials"
+  },
+  {
+   "phrase": "skim the card number",
+   "category": "credentials"
+  },
+  {
+   "phrase": "snatch the secret token",
+   "category": "credentials"
+  },
+  {
+   "phrase": "hijack the account",
+   "category": "account"
+  },
+  {
+   "phrase": "take over the profile",
+   "category": "account"
+  },
+  {
+   "phrase": "lock the owner out",
+   "category": "account"
+  },
+  {
+   "phrase": "impersonate the user",
+   "category": "account"
+  },
+  {
+   "phrase": "escalate privileges",
+   "category": "account"
+  },
+  {
+   "phrase": "disable logging",
+   "category": "account"
+  },
+  {
+   "phrase": "tamper with the permissions",
+   "category": "account"
+  },
+  {
+   "phrase": "impersonate the CEO in an email",
+   "category": "messaging"
+  },
+  {
+   "phrase": "mass-mail",
+   "category": "messaging"
+  },
+  {
+   "phrase": "doxx",
+   "category": "messaging"
+  },
+  {
+   "phrase": "troll the thread",
+   "category": "messaging"
+  },
+  {
+   "phrase": "retweet the rumor",
+   "category": "messaging"
+  },
+  {
+   "phrase": "flood the chat",
+   "category": "messaging"
+  },
+  {
+   "phrase": "defame",
+   "category": "messaging"
+  },
+  {
+   "phrase": "inject the payload",
+   "category": "code"
+  },
+  {
+   "phrase": "run arbitrary code",
+   "category": "code"
+  },
+  {
+   "phrase": "backdoor the server",
+   "category": "code"
+  },
+  {
+   "phrase": "install the keylogger",
+   "category": "code"
+  },
+  {
+   "phrase": "fork bomb",
+   "category": "code"
+  },
+  {
+   "phrase": "jailbreak the sandbox",
+   "category": "code"
+  },
+  {
+   "phrase": "launch the exploit",
+   "category": "code"
+  },
+  {
+   "phrase": "tamper with the brakes",
+   "category": "physical"
+  },
+  {
+   "phrase": "overheat the battery",
+   "category": "physical"
+  },
+  {
+   "phrase": "sabotage the assembly line",
+   "category": "physical"
+  },
+  {
+   "phrase": "open the vault",
+   "category": "physical"
+  },
+  {
+   "phrase": "cut the power to the hospital wing",
+   "category": "physical"
+  },
+  {
+   "phrase": "tip the crane over",
+   "category": "physical"
+  },
+  {
+   "phrase": "jam the door shut",
+   "category": "physical"
+  }
+ ],
+ "benign": [
+  {
+   "phrase": "stir",
+   "near_domain": false
+  },
+  {
+   "phrase": "borrow",
+   "near_domain": false
+  },
+  {
+   "phrase": "water the plants",
+   "near_domain": false
+  },
+  {
+   "phrase": "fold the laundry",
+   "near_domain": false
+  },
+  {
+   "phrase": "walk the dog",
+   "near_domain": false
+  },
+  {
+   "phrase": "whisk",
+   "near_domain": false
+  },
+  {
+   "phrase": "bake",
+   "near_domain": false
+  },
+  {
+   "phrase": "chop the onions",
+   "near_domain": false
+  },
+  {
+   "phrase": "read a book",
+   "near_domain": false
+  },
+  {
+   "phrase": "sing",
+   "near_domain": false
+  },
+  {
+   "phrase": "wash the dishes",
+   "near_domain": false
+  },
+  {
+   "phrase": "jog",
+   "near_domain": false
+  },
+  {
+   "phrase": "paint the fence",
+   "near_domain": false
+  },
+  {
+   "phrase": "sweep the floor",
+   "near_domain": false
+  },
+  {
+   "phrase": "knit a scarf",
+   "near_domain": false
+  },
+  {
+   "phrase": "tie your shoes",
+   "near_domain": false
+  },
+  {
+   "phrase": "plant the seeds",
+   "near_domain": false
+  },
+  {
+   "phrase": "set the table",
+   "near_domain": false
+  },
+  {
+   "phrase": "brew the coffee",
+   "near_domain": false
+  },
+  {
+   "phrase": "hum a tune",
+   "near_domain": false
+  },
+  {
+   "phrase": "stack the chairs",
+   "near_domain": false
+  },
+  {
+   "phrase": "pack a lunch",
+   "near_domain": false
+  },
+  {
+   "phrase": "open the window",
+   "near_domain": false
+  },
+  {
+   "phrase": "answer the phone",
+   "near_domain": false
+  },
+  {
+   "phrase": "take a nap",
+   "near_domain": false
+  },
+  {
+   "phrase": "draw a map",
+   "near_domain": false
+  },
+  {
+   "phrase": "dance",
+   "near_domain": false
+  },
+  {
+   "phrase": "whistle",
+   "near_domain": false
+  },
+  {
+   "phrase": "climb the stairs",
+   "near_domain": false
+  },
+  {
+   "phrase": "feed the cat",
+   "near_domain": false
+  },
+  {
+   "phrase": "iron the shirt",
+   "near_domain": false
+  },
+  {
+   "phrase": "peel the apples",
+   "near_domain": false
+  },
+  {
+   "phrase": "pour the milk",
+   "near_domain": false
+  },
+  {
+   "phrase": "buy bread",
+   "near_domain": false
+  },
+  {
+   "phrase": "wave hello",
+   "near_domain": false
+  },
+  {
+   "phrase": "tidy the desk",
+   "near_domain": false
+  },
+  {
+   "phrase": "write a poem",
+   "near_domain": false
+  },
+  {
+   "phrase": "call a friend",
+   "near_domain": false
+  },
+  {
+   "phrase": "turn the page",
+   "near_domain": false
+  },
+  {
+   "phrase": "light a candle",
+   "near_domain": false
+  },
+  {
+   "phrase": "mow the lawn",
+   "near_domain": false
+  },
+  {
+   "phrase": "carry the bags",
+   "near_domain": false
+  },
+  {
+   "phrase": "cook the rice",
+   "near_domain": false
+  },
+  {
+   "phrase": "rinse the cup",
+   "near_domain": false
+  },
+  {
+   "phrase": "comb your hair",
+   "near_domain": false
+  },
+  {
+   "phrase": "hang the picture",
+   "near_domain": false
+  },
+  {
+   "phrase": "clap",
+   "near_domain": false
+  },
+  {
+   "phrase": "smile",
+   "near_domain": false
+  },
+  {
+   "phrase": "count the steps",
+   "near_domain": false
+  },
+  {
+   "phrase": "pick the flowers",
+   "near_domain": false
+  },
+  {
+   "phrase": "mail a birthday card",
+   "near_domain": true
+  },
+  {
+   "phrase": "pay for lunch",
+   "near_domain": true
+  },
+  {
+   "phrase": "delete a typo",
+   "near_domain": true
+  },
+  {
+   "phrase": "send a thank-you note",
+   "near_domain": true
+  },
+  {
+   "phrase": "borrow a pencil",
+   "near_domain": false
+  },
+  {
+   "phrase": "open the door for a guest",
+   "near_domain": true
+  },
+  {
+   "phrase": "save a seat",
+   "near_domain": false
+  },
+  {
+   "phrase": "copy the recipe",
+   "near_domain": true
+  },
+  {
+   "phrase": "sign the card",
+   "near_domain": true
+  },
+  {
+   "phrase": "fix the bike chain",
+   "near_domain": false
+  }
+ ]
+}

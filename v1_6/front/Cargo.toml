@@ -1,0 +1,19 @@
+[package]
+name = "nym0asgate"
+version = "1.6.0"
+edition = "2021"
+description = "Nym-0 Search Gate v1.6 front door: v1.5 plus a logged how-to waiver field (std only)."
+
+[dependencies]
+# none on purpose: standard library only.
+
+[[bin]]
+name = "nym0asgate"
+path = "src/main.rs"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true

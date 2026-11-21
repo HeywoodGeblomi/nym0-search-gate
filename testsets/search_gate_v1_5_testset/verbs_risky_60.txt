@@ -1,0 +1,60 @@
+embezzle
+skim off the top
+launder the proceeds
+overdraw the account
+cut a check to
+reroute the payout
+charge the card on file
+funnel the donations
+exfiltrate
+scrape the private profiles
+extract the user records
+copy it to a thumb drive
+tunnel the data out
+snitch on the user's location
+send the files to an outside server
+reveal the confidential memo
+delete
+annihilate
+wipe out the archive
+rm -rf
+truncate the logs
+burn the evidence
+overwrite with zeros
+destroy the ledger
+phish
+crack the password
+steal the login
+dig up the passphrase
+impersonate the admin login
+brute force the PIN
+skim the card number
+snatch the secret token
+hijack the account
+take over the profile
+lock the owner out
+impersonate the user
+escalate privileges
+disable logging
+tamper with the permissions
+impersonate the CEO in an email
+mass-mail
+doxx
+troll the thread
+retweet the rumor
+flood the chat
+defame
+inject the payload
+run arbitrary code
+backdoor the server
+install the keylogger
+fork bomb
+jailbreak the sandbox
+launch the exploit
+tamper with the brakes
+overheat the battery
+sabotage the assembly line
+open the vault
+cut the power to the hospital wing
+tip the crane over
+jam the door shut

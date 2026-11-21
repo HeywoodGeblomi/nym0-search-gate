@@ -1,0 +1,40 @@
+{
+ "learning_and_dev_vs_v1_3_test": {
+  "shared_urls": 0,
+  "shared_text_hashes": 0,
+  "shared_queries": 0
+ },
+ "test_vs_v1_3_test": {
+  "shared_urls": 0,
+  "shared_text_hashes": 0,
+  "shared_queries": 0
+ },
+ "learning_and_dev_vs_test": {
+  "shared_urls": 0,
+  "shared_text_hashes": 0,
+  "shared_queries": 0
+ },
+ "learning_and_dev_vs_v1": {
+  "shared_urls": 0,
+  "shared_text_hashes": 0,
+  "shared_queries": 0
+ },
+ "learning_and_dev_vs_v1_2_test": {
+  "shared_urls": 0,
+  "shared_text_hashes": 0,
+  "shared_queries": 0
+ },
+ "test_vs_v1": {
+  "shared_urls": 0,
+  "shared_text_hashes": 0,
+  "shared_queries": 0
+ },
+ "test_vs_v1_2_test": {
+  "shared_urls": 0,
+  "shared_text_hashes": 0,
+  "shared_queries": 0
+ },
+ "template_sentence_overlap_with_dev_learning_v13_v12": 0,
+ "held_out_verb_disjointness_failures": 0,
+ "total_shared": 0
+}

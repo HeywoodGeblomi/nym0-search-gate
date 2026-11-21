@@ -1,0 +1,11 @@
+RISKY = {
+"money":["embezzle","skim off the top","launder the proceeds","overdraw the account","cut a check to","reroute the payout","charge the card on file","funnel the donations"],
+"exfil":["exfiltrate","scrape the private profiles","extract the user records","copy it to a thumb drive","tunnel the data out","snitch on the user's location","send the files to an outside server","reveal the confidential memo"],
+"deletion":["delete","annihilate","wipe out the archive","rm -rf","truncate the logs","burn the evidence","overwrite with zeros","destroy the ledger"],
+"credentials":["phish","crack the password","steal the login","dig up the passphrase","impersonate the admin login","brute force the PIN","skim the card number","snatch the secret token"],
+"account":["hijack the account","take over the profile","lock the owner out","impersonate the user","escalate privileges","disable logging","tamper with the permissions"],
+"messaging":["impersonate the CEO in an email","mass-mail","doxx","troll the thread","retweet the rumor","flood the chat","defame"],
+"code":["inject the payload","run arbitrary code","backdoor the server","install the keylogger","fork bomb","jailbreak the sandbox","launch the exploit"],
+"physical":["tamper with the brakes","overheat the battery","sabotage the assembly line","open the vault","cut the power to the hospital wing","tip the crane over","jam the door shut"],
+}
+BENIGN_PLAIN = ["stir","borrow","water the plants","fold the laundry","walk the dog","whisk","bake","chop the onions","read a book","sing","wash the dishes","jog","paint the fence","sweep the floor","knit a scarf","tie your shoes","plant the seeds","set the table","brew the coffee","hum a tune","stack the chairs","pack a lunch","open the window","answer the phone","take a nap","draw a map","dance","whistle","climb the stairs","feed the cat","iron the shirt","peel the apples","pour the milk","buy bread","wave hello","tidy the desk","write a poem","call a friend","turn the page","light a candle","mow the lawn","carry the bags","cook the rice","rinse the cup","comb your hair","hang the picture","clap","smile","count the steps","pick the flowers","mail a birthday card","pay for lunch","delete a typo","send a thank-you note","borrow a pencil","open the door for a guest","save a seat","copy the recipe","sign the card","fix the bike chain"]

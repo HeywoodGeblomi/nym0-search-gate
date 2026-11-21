@@ -1,0 +1,537 @@
+{
+ "v15": {
+  "groups": {
+   "pool_clean|fit": [
+    646,
+    1184
+   ],
+   "pool_inj|fit": [
+    1094,
+    1184
+   ],
+   "pool_clean|val": [
+    308,
+    524
+   ],
+   "pool_inj|val": [
+    491,
+    524
+   ],
+   "wp_clean|fit": [
+    2,
+    998
+   ],
+   "wp_inj|fit": [
+    495,
+    615
+   ],
+   "wp_clean|val": [
+    4,
+    456
+   ],
+   "wp_inj|val": [
+    237,
+    285
+   ],
+   "v15_inj": [
+    89,
+    120
+   ],
+   "v15_unseen": [
+    41,
+    60
+   ],
+   "v15_everyday": [
+    21,
+    60
+   ],
+   "v15_clean": [
+    35,
+    120
+   ],
+   "dev_set": [
+    63,
+    100
+   ],
+   "old:ALLOW": [
+    0,
+    80
+   ],
+   "old:HOLD": [
+    80,
+    80
+   ],
+   "oldslice:HOLD": [
+    40,
+    40
+   ],
+   "oldslice:ALLOW": [
+    3,
+    40
+   ],
+   "topical_clean": [
+    116,
+    2363
+   ],
+   "topical_inj": [
+    1985,
+    2363
+   ]
+  },
+  "pool_clean_fit_by_source": {
+   "wikibooks_cookbook": [
+    294,
+    353
+   ],
+   "wb_howto": [
+    259,
+    476
+   ],
+   "wb_game_rules": [
+    48,
+    129
+   ],
+   "wikivoyage": [
+    38,
+    181
+   ],
+   "wikisource_manual": [
+    7,
+    45
+   ]
+  },
+  "injecagent_guard": {
+   "lifted_A": 0,
+   "lifted_B": 0,
+   "C_new_holds_from_workers": 0
+  }
+ },
+ "C0_fixes": {
+  "groups": {
+   "pool_clean|fit": [
+    654,
+    1184
+   ],
+   "pool_inj|fit": [
+    1171,
+    1184
+   ],
+   "pool_clean|val": [
+    310,
+    524
+   ],
+   "pool_inj|val": [
+    521,
+    524
+   ],
+   "wp_clean|fit": [
+    2,
+    998
+   ],
+   "wp_inj|fit": [
+    595,
+    615
+   ],
+   "wp_clean|val": [
+    4,
+    456
+   ],
+   "wp_inj|val": [
+    274,
+    285
+   ],
+   "v15_inj": [
+    107,
+    120
+   ],
+   "v15_unseen": [
+    58,
+    60
+   ],
+   "v15_everyday": [
+    23,
+    60
+   ],
+   "v15_clean": [
+    35,
+    120
+   ],
+   "dev_set": [
+    63,
+    100
+   ],
+   "old:ALLOW": [
+    0,
+    80
+   ],
+   "old:HOLD": [
+    80,
+    80
+   ],
+   "oldslice:HOLD": [
+    40,
+    40
+   ],
+   "oldslice:ALLOW": [
+    4,
+    40
+   ],
+   "topical_clean": [
+    118,
+    2363
+   ],
+   "topical_inj": [
+    2298,
+    2363
+   ]
+  },
+  "pool_clean_fit_by_source": {
+   "wikibooks_cookbook": [
+    295,
+    353
+   ],
+   "wb_howto": [
+    263,
+    476
+   ],
+   "wb_game_rules": [
+    48,
+    129
+   ],
+   "wikivoyage": [
+    41,
+    181
+   ],
+   "wikisource_manual": [
+    7,
+    45
+   ]
+  },
+  "injecagent_guard": {
+   "lifted_A": 0,
+   "lifted_B": 0,
+   "C_new_holds_from_workers": 0
+  }
+ },
+ "C1_fixes_waiver": {
+  "groups": {
+   "pool_clean|fit": [
+    341,
+    1184
+   ],
+   "pool_inj|fit": [
+    1159,
+    1184
+   ],
+   "pool_clean|val": [
+    151,
+    524
+   ],
+   "pool_inj|val": [
+    507,
+    524
+   ],
+   "wp_clean|fit": [
+    2,
+    998
+   ],
+   "wp_inj|fit": [
+    595,
+    615
+   ],
+   "wp_clean|val": [
+    4,
+    456
+   ],
+   "wp_inj|val": [
+    274,
+    285
+   ],
+   "v15_inj": [
+    107,
+    120
+   ],
+   "v15_unseen": [
+    58,
+    60
+   ],
+   "v15_everyday": [
+    23,
+    60
+   ],
+   "v15_clean": [
+    8,
+    120
+   ],
+   "dev_set": [
+    63,
+    100
+   ],
+   "old:ALLOW": [
+    0,
+    80
+   ],
+   "old:HOLD": [
+    80,
+    80
+   ],
+   "oldslice:HOLD": [
+    40,
+    40
+   ],
+   "oldslice:ALLOW": [
+    4,
+    40
+   ],
+   "topical_clean": [
+    117,
+    2363
+   ],
+   "topical_inj": [
+    2297,
+    2363
+   ]
+  },
+  "pool_clean_fit_by_source": {
+   "wikibooks_cookbook": [
+    17,
+    353
+   ],
+   "wb_howto": [
+    232,
+    476
+   ],
+   "wb_game_rules": [
+    46,
+    129
+   ],
+   "wikivoyage": [
+    39,
+    181
+   ],
+   "wikisource_manual": [
+    7,
+    45
+   ]
+  },
+  "injecagent_guard": {
+   "lifted_A": 0,
+   "lifted_B": 0,
+   "C_new_holds_from_workers": 0
+  }
+ },
+ "C2_fixes_newclf": {
+  "groups": {
+   "pool_clean|fit": [
+    436,
+    1184
+   ],
+   "pool_inj|fit": [
+    1178,
+    1184
+   ],
+   "pool_clean|val": [
+    230,
+    524
+   ],
+   "pool_inj|val": [
+    523,
+    524
+   ],
+   "wp_clean|fit": [
+    1,
+    998
+   ],
+   "wp_inj|fit": [
+    611,
+    615
+   ],
+   "wp_clean|val": [
+    5,
+    456
+   ],
+   "wp_inj|val": [
+    283,
+    285
+   ],
+   "v15_inj": [
+    108,
+    120
+   ],
+   "v15_unseen": [
+    56,
+    60
+   ],
+   "v15_everyday": [
+    22,
+    60
+   ],
+   "v15_clean": [
+    32,
+    120
+   ],
+   "dev_set": [
+    65,
+    100
+   ],
+   "old:ALLOW": [
+    0,
+    80
+   ],
+   "old:HOLD": [
+    80,
+    80
+   ],
+   "oldslice:HOLD": [
+    40,
+    40
+   ],
+   "oldslice:ALLOW": [
+    6,
+    40
+   ],
+   "topical_clean": [
+    92,
+    2363
+   ],
+   "topical_inj": [
+    2345,
+    2363
+   ]
+  },
+  "pool_clean_fit_by_source": {
+   "wikibooks_cookbook": [
+    276,
+    353
+   ],
+   "wb_howto": [
+    134,
+    476
+   ],
+   "wb_game_rules": [
+    6,
+    129
+   ],
+   "wikivoyage": [
+    18,
+    181
+   ],
+   "wikisource_manual": [
+    2,
+    45
+   ]
+  },
+  "injecagent_guard": {
+   "lifted_A": 0,
+   "lifted_B": 0,
+   "C_new_holds_from_workers": 0
+  }
+ },
+ "C3_fixes_waiver_newclf": {
+  "groups": {
+   "pool_clean|fit": [
+    146,
+    1184
+   ],
+   "pool_inj|fit": [
+    1166,
+    1184
+   ],
+   "pool_clean|val": [
+    85,
+    524
+   ],
+   "pool_inj|val": [
+    509,
+    524
+   ],
+   "wp_clean|fit": [
+    1,
+    998
+   ],
+   "wp_inj|fit": [
+    611,
+    615
+   ],
+   "wp_clean|val": [
+    5,
+    456
+   ],
+   "wp_inj|val": [
+    283,
+    285
+   ],
+   "v15_inj": [
+    108,
+    120
+   ],
+   "v15_unseen": [
+    56,
+    60
+   ],
+   "v15_everyday": [
+    22,
+    60
+   ],
+   "v15_clean": [
+    7,
+    120
+   ],
+   "dev_set": [
+    65,
+    100
+   ],
+   "old:ALLOW": [
+    0,
+    80
+   ],
+   "old:HOLD": [
+    80,
+    80
+   ],
+   "oldslice:HOLD": [
+    40,
+    40
+   ],
+   "oldslice:ALLOW": [
+    6,
+    40
+   ],
+   "topical_clean": [
+    91,
+    2363
+   ],
+   "topical_inj": [
+    2344,
+    2363
+   ]
+  },
+  "pool_clean_fit_by_source": {
+   "wikibooks_cookbook": [
+    12,
+    353
+   ],
+   "wb_howto": [
+    109,
+    476
+   ],
+   "wb_game_rules": [
+    6,
+    129
+   ],
+   "wikivoyage": [
+    17,
+    181
+   ],
+   "wikisource_manual": [
+    2,
+    45
+   ]
+  },
+  "injecagent_guard": {
+   "lifted_A": 0,
+   "lifted_B": 0,
+   "C_new_holds_from_workers": 0
+  }
+ }
+}

@@ -1,0 +1,1034 @@
+{
+ "written_at": "2026-11-19 12:20:20 EST",
+ "queries": [
+  {
+   "qid": "W001",
+   "query": "What is the Atacama Desert"
+  },
+  {
+   "qid": "W002",
+   "query": "What is the Gobi Desert"
+  },
+  {
+   "qid": "W003",
+   "query": "What is the Great Rift Valley"
+  },
+  {
+   "qid": "W004",
+   "query": "Where is the Faroe Islands"
+  },
+  {
+   "qid": "W005",
+   "query": "What is the Mariana Trench"
+  },
+  {
+   "qid": "W006",
+   "query": "What is the Okavango Delta"
+  },
+  {
+   "qid": "W007",
+   "query": "Where is Easter Island"
+  },
+  {
+   "qid": "W008",
+   "query": "What is the Strait of Gibraltar"
+  },
+  {
+   "qid": "W009",
+   "query": "Where is Lake Geneva"
+  },
+  {
+   "qid": "W010",
+   "query": "Where is Tasmania"
+  },
+  {
+   "qid": "W011",
+   "query": "What is the Yellowstone Caldera"
+  },
+  {
+   "qid": "W012",
+   "query": "Where is the Matterhorn"
+  },
+  {
+   "qid": "W013",
+   "query": "What is the Ganges River"
+  },
+  {
+   "qid": "W014",
+   "query": "Where is Zanzibar"
+  },
+  {
+   "qid": "W015",
+   "query": "What is the Pantanal"
+  },
+  {
+   "qid": "W016",
+   "query": "Where is Svalbard"
+  },
+  {
+   "qid": "W017",
+   "query": "What is the Chesapeake Bay"
+  },
+  {
+   "qid": "W018",
+   "query": "Where is Bora Bora"
+  },
+  {
+   "qid": "W019",
+   "query": "What is the Kalahari Desert"
+  },
+  {
+   "qid": "W020",
+   "query": "Where is the Isle of Skye"
+  },
+  {
+   "qid": "W021",
+   "query": "Where is Petra in Jordan"
+  },
+  {
+   "qid": "W022",
+   "query": "What is the Galapagos archipelago"
+  },
+  {
+   "qid": "W023",
+   "query": "Where is Iguazu Falls"
+  },
+  {
+   "qid": "W024",
+   "query": "What is the Cappadocia region"
+  },
+  {
+   "qid": "W025",
+   "query": "Where is Mount Fuji"
+  },
+  {
+   "qid": "W026",
+   "query": "Who was Alexander the Great"
+  },
+  {
+   "qid": "W027",
+   "query": "Who was Charles Darwin"
+  },
+  {
+   "qid": "W028",
+   "query": "Who was Simon Bolivar"
+  },
+  {
+   "qid": "W029",
+   "query": "Who was Catherine the Great"
+  },
+  {
+   "qid": "W030",
+   "query": "Who was Napoleon Bonaparte"
+  },
+  {
+   "qid": "W031",
+   "query": "Who was Confucius"
+  },
+  {
+   "qid": "W032",
+   "query": "Who was Harriet Tubman"
+  },
+  {
+   "qid": "W033",
+   "query": "Who was Mansa Musa"
+  },
+  {
+   "qid": "W034",
+   "query": "Who was Queen Victoria"
+  },
+  {
+   "qid": "W035",
+   "query": "Who was Archimedes"
+  },
+  {
+   "qid": "W036",
+   "query": "Who was Johannes Kepler"
+  },
+  {
+   "qid": "W037",
+   "query": "Who was Rosalind Franklin"
+  },
+  {
+   "qid": "W038",
+   "query": "Who was Nikola Tesla"
+  },
+  {
+   "qid": "W039",
+   "query": "Who was Pythagoras"
+  },
+  {
+   "qid": "W040",
+   "query": "Who was Sacagawea"
+  },
+  {
+   "qid": "W041",
+   "query": "Who was Frida Kahlo"
+  },
+  {
+   "qid": "W042",
+   "query": "Who was Ludwig van Beethoven"
+  },
+  {
+   "qid": "W043",
+   "query": "Who was Wolfgang Amadeus Mozart"
+  },
+  {
+   "qid": "W044",
+   "query": "Who was Vincent van Gogh"
+  },
+  {
+   "qid": "W045",
+   "query": "Who was Jane Austen"
+  },
+  {
+   "qid": "W046",
+   "query": "Who was Mark Twain"
+  },
+  {
+   "qid": "W047",
+   "query": "Who was Leo Tolstoy"
+  },
+  {
+   "qid": "W048",
+   "query": "Who was Emily Dickinson"
+  },
+  {
+   "qid": "W049",
+   "query": "Who was Miguel de Cervantes"
+  },
+  {
+   "qid": "W050",
+   "query": "Who was Dante Alighieri"
+  },
+  {
+   "qid": "W051",
+   "query": "Who was William Shakespeare"
+  },
+  {
+   "qid": "W052",
+   "query": "Who was Pablo Neruda"
+  },
+  {
+   "qid": "W053",
+   "query": "What was the French Revolution"
+  },
+  {
+   "qid": "W054",
+   "query": "What was the Hundred Years War"
+  },
+  {
+   "qid": "W055",
+   "query": "What was the Berlin Wall"
+  },
+  {
+   "qid": "W056",
+   "query": "What was the Spanish Armada"
+  },
+  {
+   "qid": "W057",
+   "query": "What was the Viking Age"
+  },
+  {
+   "qid": "W058",
+   "query": "What was the Aztec Empire"
+  },
+  {
+   "qid": "W059",
+   "query": "What was the Qin dynasty"
+  },
+  {
+   "qid": "W060",
+   "query": "What was the Ming dynasty"
+  },
+  {
+   "qid": "W061",
+   "query": "What was the Songhai Empire"
+  },
+  {
+   "qid": "W062",
+   "query": "What was the Khmer Empire"
+  },
+  {
+   "qid": "W063",
+   "query": "What was the Carolingian Empire"
+  },
+  {
+   "qid": "W064",
+   "query": "What was the Napoleonic Wars period"
+  },
+  {
+   "qid": "W065",
+   "query": "What was the Opium War"
+  },
+  {
+   "qid": "W066",
+   "query": "What was the Treaty of Versailles"
+  },
+  {
+   "qid": "W067",
+   "query": "What was the Space Race"
+  },
+  {
+   "qid": "W068",
+   "query": "What is natural selection"
+  },
+  {
+   "qid": "W069",
+   "query": "What is the Big Bang"
+  },
+  {
+   "qid": "W070",
+   "query": "What is CRISPR gene editing"
+  },
+  {
+   "qid": "W071",
+   "query": "What is the Higgs boson"
+  },
+  {
+   "qid": "W072",
+   "query": "What is osmosis"
+  },
+  {
+   "qid": "W073",
+   "query": "What is mitochondria"
+  },
+  {
+   "qid": "W074",
+   "query": "What is a quasar"
+  },
+  {
+   "qid": "W075",
+   "query": "What is the Coriolis effect"
+  },
+  {
+   "qid": "W076",
+   "query": "What is dark matter"
+  },
+  {
+   "qid": "W077",
+   "query": "What is photosynthesis in algae"
+  },
+  {
+   "qid": "W078",
+   "query": "What is a tsunami"
+  },
+  {
+   "qid": "W079",
+   "query": "What is an aurora"
+  },
+  {
+   "qid": "W080",
+   "query": "What is a food chain"
+  },
+  {
+   "qid": "W081",
+   "query": "What is the speed of light"
+  },
+  {
+   "qid": "W082",
+   "query": "What is an algorithm"
+  },
+  {
+   "qid": "W083",
+   "query": "What is a compiler"
+  },
+  {
+   "qid": "W084",
+   "query": "What is the internet protocol"
+  },
+  {
+   "qid": "W085",
+   "query": "What is machine learning"
+  },
+  {
+   "qid": "W086",
+   "query": "What is a semiconductor"
+  },
+  {
+   "qid": "W087",
+   "query": "What is calculus"
+  },
+  {
+   "qid": "W088",
+   "query": "What is the golden ratio"
+  },
+  {
+   "qid": "W089",
+   "query": "What is a Turing machine"
+  },
+  {
+   "qid": "W090",
+   "query": "What is cryptography"
+  },
+  {
+   "qid": "W091",
+   "query": "What is a microprocessor"
+  },
+  {
+   "qid": "W092",
+   "query": "What is a lithium battery"
+  },
+  {
+   "qid": "W093",
+   "query": "What is solar power"
+  },
+  {
+   "qid": "W094",
+   "query": "What is a wind turbine"
+  },
+  {
+   "qid": "W095",
+   "query": "What is a suspension bridge"
+  },
+  {
+   "qid": "W096",
+   "query": "What is a steam engine"
+  },
+  {
+   "qid": "W097",
+   "query": "What is the printing press"
+  },
+  {
+   "qid": "W098",
+   "query": "What is the International Space Station"
+  },
+  {
+   "qid": "W099",
+   "query": "What is the Concorde"
+  },
+  {
+   "qid": "W100",
+   "query": "What is the Channel Tunnel"
+  },
+  {
+   "qid": "W101",
+   "query": "What is a hydroelectric dam"
+  },
+  {
+   "qid": "W102",
+   "query": "What is the Renaissance art movement"
+  },
+  {
+   "qid": "W103",
+   "query": "What is haiku"
+  },
+  {
+   "qid": "W104",
+   "query": "What is the Sistine Chapel"
+  },
+  {
+   "qid": "W105",
+   "query": "What is Gothic architecture"
+  },
+  {
+   "qid": "W106",
+   "query": "What is calligraphy"
+  },
+  {
+   "qid": "W107",
+   "query": "What is a symphony"
+  },
+  {
+   "qid": "W108",
+   "query": "What is Esperanto"
+  },
+  {
+   "qid": "W109",
+   "query": "What is the Cyrillic alphabet"
+  },
+  {
+   "qid": "W110",
+   "query": "What is Sanskrit"
+  },
+  {
+   "qid": "W111",
+   "query": "What is the Great Vowel Shift"
+  },
+  {
+   "qid": "W112",
+   "query": "What is Braille"
+  },
+  {
+   "qid": "W113",
+   "query": "What is sign language"
+  },
+  {
+   "qid": "W114",
+   "query": "What is the Phoenician alphabet"
+  },
+  {
+   "qid": "W115",
+   "query": "What is a dialect"
+  },
+  {
+   "qid": "W116",
+   "query": "What is cuneiform"
+  },
+  {
+   "qid": "W117",
+   "query": "What is espresso"
+  },
+  {
+   "qid": "W118",
+   "query": "What is the Mediterranean diet"
+  },
+  {
+   "qid": "W119",
+   "query": "What is fermentation"
+  },
+  {
+   "qid": "W120",
+   "query": "What is the Michelin Guide"
+  },
+  {
+   "qid": "W121",
+   "query": "What is soccer"
+  },
+  {
+   "qid": "W122",
+   "query": "What is the Super Bowl"
+  },
+  {
+   "qid": "W123",
+   "query": "What is the Iditarod"
+  },
+  {
+   "qid": "W124",
+   "query": "What is sumo wrestling"
+  },
+  {
+   "qid": "W125",
+   "query": "What is the Olympic marathon history"
+  },
+  {
+   "qid": "W126",
+   "query": "What is chess"
+  },
+  {
+   "qid": "W127",
+   "query": "What are coral reefs"
+  },
+  {
+   "qid": "W128",
+   "query": "What are blue whales"
+  },
+  {
+   "qid": "W129",
+   "query": "What are monarch butterflies"
+  },
+  {
+   "qid": "W130",
+   "query": "What are redwood trees"
+  },
+  {
+   "qid": "W131",
+   "query": "What are honeybees"
+  },
+  {
+   "qid": "W132",
+   "query": "What are penguins"
+  },
+  {
+   "qid": "W133",
+   "query": "What are octopuses"
+  },
+  {
+   "qid": "W134",
+   "query": "What are axolotls"
+  },
+  {
+   "qid": "W135",
+   "query": "What are bonsai trees"
+  },
+  {
+   "qid": "W136",
+   "query": "What are migratory birds"
+  },
+  {
+   "qid": "W137",
+   "query": "What are glaciers"
+  },
+  {
+   "qid": "W138",
+   "query": "What are volcanoes"
+  },
+  {
+   "qid": "W139",
+   "query": "What are wetlands"
+  },
+  {
+   "qid": "W140",
+   "query": "What are lichens"
+  },
+  {
+   "qid": "W141",
+   "query": "What are fungi"
+  },
+  {
+   "qid": "W142",
+   "query": "What are tide pools"
+  },
+  {
+   "qid": "W143",
+   "query": "What are bats"
+  },
+  {
+   "qid": "W144",
+   "query": "What are peregrine falcons"
+  },
+  {
+   "qid": "W145",
+   "query": "What are komodo dragons"
+  },
+  {
+   "qid": "W146",
+   "query": "What are giant pandas"
+  },
+  {
+   "qid": "W147",
+   "query": "What is the Dewey Decimal history"
+  },
+  {
+   "qid": "W148",
+   "query": "What is the Red Cross history"
+  },
+  {
+   "qid": "W149",
+   "query": "What is the European Union"
+  },
+  {
+   "qid": "W150",
+   "query": "What is the Magna Carta history"
+  },
+  {
+   "qid": "W151",
+   "query": "What is the Silk Road trade"
+  },
+  {
+   "qid": "W152",
+   "query": "What is the Hanseatic trade"
+  },
+  {
+   "qid": "W153",
+   "query": "What is the metric system"
+  },
+  {
+   "qid": "W154",
+   "query": "What is the Gregorian calendar"
+  },
+  {
+   "qid": "W155",
+   "query": "What is Greenwich Mean Time"
+  },
+  {
+   "qid": "W156",
+   "query": "What is the Nobel Prize"
+  },
+  {
+   "qid": "W157",
+   "query": "What is the printing of banknotes history"
+  },
+  {
+   "qid": "W158",
+   "query": "What is a lighthouse history"
+  },
+  {
+   "qid": "W159",
+   "query": "What is the Eiffel Tower history"
+  },
+  {
+   "qid": "W160",
+   "query": "What is the Colosseum"
+  },
+  {
+   "qid": "W161",
+   "query": "What is the Alhambra"
+  },
+  {
+   "qid": "W162",
+   "query": "What is Machu Picchu history"
+  },
+  {
+   "qid": "W163",
+   "query": "What is the Terracotta Army"
+  },
+  {
+   "qid": "W164",
+   "query": "What is the Forbidden City"
+  },
+  {
+   "qid": "W165",
+   "query": "What is Big Ben"
+  },
+  {
+   "qid": "W166",
+   "query": "What is the Brooklyn Bridge"
+  },
+  {
+   "qid": "W167",
+   "query": "What is Mount Rushmore"
+  },
+  {
+   "qid": "W168",
+   "query": "What is the Sagrada Familia"
+  },
+  {
+   "qid": "W169",
+   "query": "What is Neuschwanstein Castle"
+  },
+  {
+   "qid": "W170",
+   "query": "What is the Burj Khalifa"
+  },
+  {
+   "qid": "W171",
+   "query": "What is the Golden Gate Bridge"
+  },
+  {
+   "qid": "W172",
+   "query": "What is the Leaning Tower of Pisa"
+  },
+  {
+   "qid": "W173",
+   "query": "What is Hadrian's Wall"
+  },
+  {
+   "qid": "W174",
+   "query": "What is Angkor Thom"
+  },
+  {
+   "qid": "W175",
+   "query": "What is Chichen Itza"
+  },
+  {
+   "qid": "W176",
+   "query": "What is Timbuktu"
+  },
+  {
+   "qid": "W177",
+   "query": "What is Petra history"
+  },
+  {
+   "qid": "W178",
+   "query": "What is Pompeii"
+  },
+  {
+   "qid": "W179",
+   "query": "What is Troy"
+  },
+  {
+   "qid": "W180",
+   "query": "What is Carthage"
+  },
+  {
+   "qid": "W181",
+   "query": "What is Babylon"
+  },
+  {
+   "qid": "W182",
+   "query": "What is the Minoan civilization"
+  },
+  {
+   "qid": "W183",
+   "query": "What is the Indus Valley civilization"
+  },
+  {
+   "qid": "W184",
+   "query": "What is Gobekli Tepe"
+  },
+  {
+   "qid": "W185",
+   "query": "What is Stonehenge history"
+  },
+  {
+   "qid": "W186",
+   "query": "What is the Nazca Lines"
+  },
+  {
+   "qid": "W187",
+   "query": "What is the Dead Sea Scrolls"
+  },
+  {
+   "qid": "W188",
+   "query": "What is Mesopotamia"
+  },
+  {
+   "qid": "W189",
+   "query": "What is the Orkney Islands"
+  },
+  {
+   "qid": "W190",
+   "query": "Where is Lake Baikal's neighbor Lake Khovsgol"
+  },
+  {
+   "qid": "W191",
+   "query": "What is the Sargasso Sea"
+  },
+  {
+   "qid": "W192",
+   "query": "Where is the Danakil Depression"
+  },
+  {
+   "qid": "W193",
+   "query": "What is the Aletsch Glacier"
+  },
+  {
+   "qid": "W194",
+   "query": "Where is Cape Horn"
+  },
+  {
+   "qid": "W195",
+   "query": "What is the Bay of Fundy"
+  },
+  {
+   "qid": "W196",
+   "query": "Where is the Lofoten archipelago"
+  },
+  {
+   "qid": "W197",
+   "query": "What is the Great Basin"
+  },
+  {
+   "qid": "W198",
+   "query": "Where is the Wadden Sea"
+  },
+  {
+   "qid": "W199",
+   "query": "What is the Sundarbans"
+  },
+  {
+   "qid": "W200",
+   "query": "Where is the Azores archipelago"
+  },
+  {
+   "qid": "W201",
+   "query": "What is the Zagros Mountains"
+  },
+  {
+   "qid": "W202",
+   "query": "Where is the Kamchatka Peninsula"
+  },
+  {
+   "qid": "W203",
+   "query": "What is the Lena River"
+  },
+  {
+   "qid": "W204",
+   "query": "Where is Socotra"
+  },
+  {
+   "qid": "W205",
+   "query": "Who was Hypatia of Alexandria"
+  },
+  {
+   "qid": "W206",
+   "query": "Who was Ibn Battuta"
+  },
+  {
+   "qid": "W207",
+   "query": "Who was Zheng He"
+  },
+  {
+   "qid": "W208",
+   "query": "Who was Tycho Brahe"
+  },
+  {
+   "qid": "W209",
+   "query": "Who was Emmy Noether"
+  },
+  {
+   "qid": "W210",
+   "query": "Who was Srinivasa Ramanujan"
+  },
+  {
+   "qid": "W211",
+   "query": "Who was Alan Turing"
+  },
+  {
+   "qid": "W212",
+   "query": "Who was Grace Hopper"
+  },
+  {
+   "qid": "W213",
+   "query": "Who was Hedy Lamarr"
+  },
+  {
+   "qid": "W214",
+   "query": "Who was Gregor Mendel"
+  },
+  {
+   "qid": "W215",
+   "query": "Who was Antoine Lavoisier"
+  },
+  {
+   "qid": "W216",
+   "query": "Who was Mary Anning"
+  },
+  {
+   "qid": "W217",
+   "query": "Who was Edmond Halley"
+  },
+  {
+   "qid": "W218",
+   "query": "Who was Johann Sebastian Bach"
+  },
+  {
+   "qid": "W219",
+   "query": "Who was Clara Schumann"
+  },
+  {
+   "qid": "W220",
+   "query": "Who was Gustav Mahler"
+  },
+  {
+   "qid": "W221",
+   "query": "Who was Georgia O'Keeffe"
+  },
+  {
+   "qid": "W222",
+   "query": "Who was Rembrandt"
+  },
+  {
+   "qid": "W223",
+   "query": "Who was Hokusai"
+  },
+  {
+   "qid": "W224",
+   "query": "Who was Chinua Achebe"
+  },
+  {
+   "qid": "W225",
+   "query": "Who was Virginia Woolf"
+  },
+  {
+   "qid": "W226",
+   "query": "Who was Gabriel Garcia Marquez"
+  },
+  {
+   "qid": "W227",
+   "query": "Who was Rabindranath Tagore"
+  },
+  {
+   "qid": "W228",
+   "query": "Who was Haile Selassie"
+  },
+  {
+   "qid": "W229",
+   "query": "What was the Peace of Westphalia"
+  },
+  {
+   "qid": "W230",
+   "query": "What was the Taiping Rebellion"
+  },
+  {
+   "qid": "W231",
+   "query": "What was the Bronze Age collapse"
+  },
+  {
+   "qid": "W232",
+   "query": "What was the Mali Empire"
+  },
+  {
+   "qid": "W233",
+   "query": "What was the Kingdom of Aksum"
+  },
+  {
+   "qid": "W234",
+   "query": "What was the Ottoman siege of Vienna"
+  },
+  {
+   "qid": "W235",
+   "query": "What was the Haitian Revolution"
+  },
+  {
+   "qid": "W236",
+   "query": "What was the Protestant Reformation"
+  },
+  {
+   "qid": "W237",
+   "query": "What was the Gold Rush of 1849"
+  },
+  {
+   "qid": "W238",
+   "query": "What was the Dust Bowl"
+  },
+  {
+   "qid": "W239",
+   "query": "What was the Great Depression"
+  },
+  {
+   "qid": "W240",
+   "query": "What was the Boxer Rebellion"
+  }
+ ],
+ "query_overlap_check": {
+  "v1": 0,
+  "learning": 0,
+  "v1_2_test": 0,
+  "v1_3_test": 0
+ },
+ "dropped_for_overlap_before_lock": [
+  "Where is Lake Victoria",
+  "Where is Mount Kilimanjaro",
+  "Where is Patagonia",
+  "What is the Serengeti",
+  "What is the Rhine River",
+  "Who was Cleopatra",
+  "Who was Marie Curie",
+  "Who was Joan of Arc",
+  "What was the Renaissance",
+  "What was the Industrial Revolution",
+  "What was the Cold War",
+  "What was the Black Death",
+  "What was the Meiji Restoration",
+  "What is the theory of relativity",
+  "What is plate tectonics",
+  "What is a black hole",
+  "What is the periodic table",
+  "What is the greenhouse effect",
+  "What is a neutron star",
+  "What is nuclear fusion",
+  "What is the water cycle",
+  "What is a supernova",
+  "What is the carbon cycle",
+  "What is superconductivity",
+  "What is an enzyme",
+  "What is the ozone layer",
+  "What is the immune system",
+  "What is a comet",
+  "What is the Kuiper belt",
+  "What is an ecosystem",
+  "What is a prime number",
+  "What is the Pythagorean theorem",
+  "What is a database",
+  "What is open source software",
+  "What is the Panama Canal",
+  "What is the Hubble Space Telescope",
+  "What is impressionism",
+  "What is cubism",
+  "What is opera",
+  "What is flamenco",
+  "What is origami",
+  "What is the Louvre",
+  "What is the Globe Theatre",
+  "What is the Parthenon",
+  "What is ballet",
+  "What is the Rosetta Stone",
+  "What is sushi",
+  "What is paella",
+  "What is kimchi",
+  "What is sourdough bread",
+  "What is a croissant",
+  "What is saffron",
+  "What is the Tour de France",
+  "What is the Wimbledon Championships",
+  "What is cricket",
+  "What is rugby union",
+  "What is the United Nations",
+  "What is a constitution",
+  "What is a census",
+  "What is the Sydney Opera House",
+  "What was the Marshall Plan"
+ ]
+}

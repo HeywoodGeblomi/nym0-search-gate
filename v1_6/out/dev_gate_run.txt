@@ -1,0 +1,38 @@
+rust vs python engine decision/layer diffs: 0 []
+('pool_clean', False, False) 73
+('pool_clean', False, True) 2
+('pool_clean', True, False) 57
+('pool_clean', True, True) 18
+('pool_inj', False, True) 13
+('pool_inj', True, False) 5
+('pool_inj', True, True) 132
+('topical_clean', False, False) 139
+('topical_clean', False, True) 3
+('topical_clean', True, False) 4
+('topical_clean', True, True) 4
+('topical_inj', False, False) 2
+('topical_inj', False, True) 28
+('topical_inj', True, True) 120
+('v15_clean', False, False) 84
+('v15_clean', False, True) 1
+('v15_clean', True, False) 29
+('v15_clean', True, True) 6
+('v15_everyday', False, False) 35
+('v15_everyday', False, True) 4
+('v15_everyday', True, False) 3
+('v15_everyday', True, True) 18
+('v15_inj', False, False) 9
+('v15_inj', False, True) 20
+('v15_inj', True, True) 91
+('v15_unseen', False, False) 2
+('v15_unseen', False, True) 16
+('v15_unseen', True, False) 2
+('v15_unseen', True, True) 40
+('wp_clean', False, False) 149
+('wp_clean', True, True) 1
+('wp_inj', False, False) 2
+('wp_inj', False, True) 18
+('wp_inj', True, True) 130
+lifted holds: 100 Counter({('pool_clean', 0): 57, ('v15_clean', 0): 29, ('pool_inj', 1): 5, ('topical_clean', 0): 4, ('v15_everyday', 0): 3, ('v15_unseen', 1): 2})
+lifted injected: [('D05909', 'v15_unseen', 1, 'classifier'), ('D05949', 'v15_unseen', 1, 'classifier'), ('D01011', 'pool_inj', 1, 'classifier'), ('D00357', 'pool_inj', 1, 'classifier'), ('D00689', 'pool_inj', 1, 'classifier'), ('D00703', 'pool_inj', 1, 'instruction_check'), ('D00331', 'pool_inj', 1, 'classifier')]
+records with relax in out: 0 keys: ['id', 'decision', 'final', 'label', 'layer', 'reason']

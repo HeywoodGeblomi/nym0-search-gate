@@ -1,0 +1,182 @@
+{
+ "records": 300,
+ "overlap_counts": {
+  "url": 15,
+  "title": 15,
+  "text_hash": 3
+ },
+ "overlaps": {
+  "url": [
+   [
+    "I-018",
+    "topical_v16",
+    "https://en.wikipedia.org/wiki/Board_game"
+   ],
+   [
+    "C-053",
+    "slice_set",
+    "https://en.wikipedia.org/wiki/Channel_Tunnel"
+   ],
+   [
+    "C-052",
+    "pool_v16",
+    "https://en.wikibooks.org/wiki/Scouting/BSA/First_Aid_Merit_Badge"
+   ],
+   [
+    "C-023",
+    "pool_v16",
+    "https://en.wikibooks.org/wiki/Cookbook:Vietnamese_Caramel_Sauce_(N%C6%B0%E1%BB%9Bc_Ma%C3%B8u)"
+   ],
+   [
+    "C-096",
+    "pool_v16",
+    "https://en.wikibooks.org/wiki/How_To_Assemble_A_Desktop_PC/Assembly"
+   ],
+   [
+    "C-109",
+    "learning_pool",
+    "https://en.wikipedia.org/wiki/Bicycle_Thieves"
+   ],
+   [
+    "I-027",
+    "V13_test_set",
+    "https://en.wikipedia.org/wiki/Peloponnesian_War"
+   ],
+   [
+    "C-030",
+    "pool_v16",
+    "https://en.wikibooks.org/wiki/Cookbook:Potato_and_Garlic_Ravioli_Filling"
+   ],
+   [
+    "I-048",
+    "slice_set",
+    "https://en.wikipedia.org/wiki/Machine_learning"
+   ],
+   [
+    "C-097",
+    "slice_set",
+    "https://en.wikipedia.org/wiki/Golden_ratio"
+   ],
+   [
+    "U-034",
+    "learning_pool",
+    "https://en.wikipedia.org/wiki/Satellite"
+   ],
+   [
+    "I-011",
+    "test_set",
+    "https://en.wikipedia.org/wiki/Qin_dynasty"
+   ],
+   [
+    "C-118",
+    "pool_v16",
+    "https://en.wikibooks.org/wiki/Cookbook:Pain_au_Levain_Naturel"
+   ],
+   [
+    "C-020",
+    "pool_v16",
+    "https://en.wikibooks.org/wiki/Adventist_Adventurer_Awards_and_Answers/Hygiene"
+   ],
+   [
+    "C-027",
+    "pool_v16",
+    "https://en.wikibooks.org/wiki/Cookbook:Pork_Aachi"
+   ]
+  ],
+  "title": [
+   [
+    "I-018",
+    "topical_v16",
+    "Board game"
+   ],
+   [
+    "C-053",
+    "slice_set",
+    "Channel Tunnel"
+   ],
+   [
+    "C-052",
+    "pool_v16",
+    "Scouting/BSA/First Aid Merit Badge"
+   ],
+   [
+    "C-023",
+    "pool_v16",
+    "Cookbook:Vietnamese Caramel Sauce (N\u01b0\u1edbc Ma\u00f8u)"
+   ],
+   [
+    "C-096",
+    "pool_v16",
+    "How To Assemble A Desktop PC/Assembly"
+   ],
+   [
+    "C-109",
+    "learning_pool",
+    "Bicycle Thieves"
+   ],
+   [
+    "I-027",
+    "V13_test_set",
+    "Peloponnesian War"
+   ],
+   [
+    "C-030",
+    "pool_v16",
+    "Cookbook:Potato and Garlic Ravioli Filling"
+   ],
+   [
+    "I-048",
+    "slice_set",
+    "Machine learning"
+   ],
+   [
+    "C-097",
+    "slice_set",
+    "Golden ratio"
+   ],
+   [
+    "U-034",
+    "learning_pool",
+    "Satellite"
+   ],
+   [
+    "I-011",
+    "test_set",
+    "Qin dynasty"
+   ],
+   [
+    "C-118",
+    "pool_v16",
+    "Cookbook:Pain au Levain Naturel"
+   ],
+   [
+    "C-020",
+    "pool_v16",
+    "Adventist Adventurer Awards and Answers/Hygiene"
+   ],
+   [
+    "C-027",
+    "pool_v16",
+    "Cookbook:Pork Aachi"
+   ]
+  ],
+  "text_hash": [
+   [
+    "C-023",
+    "pool_v16"
+   ],
+   [
+    "C-030",
+    "pool_v16"
+   ],
+   [
+    "C-027",
+    "pool_v16"
+   ]
+  ]
+ },
+ "dev_urls": 5956,
+ "dev_titles": 5951,
+ "dev_text_hashes": 8829,
+ "texts_byte_identical_to_source": true
+}

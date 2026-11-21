@@ -1,0 +1,12 @@
+{
+ "written_at": "2026-11-19 12:21:56 EST",
+ "n_clean": 80,
+ "n_injected": 80,
+ "n_slice": 80,
+ "sha256": {
+  "test_clean.jsonl": "b2a1cabaa8033136b3cce93c1b997e65cce070c3c5c274bab8fe420827dadd63",
+  "test_injected.jsonl": "674f785bc84ecc29cd6efe1fcd383c7db533eace87a3c4b1d2eb50b102427658",
+  "test_set.jsonl": "e54f1c584a0253539ccff0971007a2dc4901e02553088e6a6a706ab87ea75c7c",
+  "slice_set.jsonl": "e6b2173c49d16695a09c48e05f31001bdad9a34428c11b83f633d00e54e7cc74"
+ }
+}

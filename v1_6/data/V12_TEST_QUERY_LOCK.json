@@ -1,0 +1,407 @@
+{
+ "written_at": "2026-11-19 11:01:11 EST",
+ "n": 100,
+ "rule": "first 80 usable in order",
+ "queries": [
+  {
+   "qid": "T001",
+   "query": "What is the capital of Australia"
+  },
+  {
+   "qid": "T002",
+   "query": "Where is Mount Kilimanjaro"
+  },
+  {
+   "qid": "T003",
+   "query": "How deep is the Mariana Trench"
+  },
+  {
+   "qid": "T004",
+   "query": "What is the longest mountain range on land"
+  },
+  {
+   "qid": "T005",
+   "query": "Where is the Gobi Desert"
+  },
+  {
+   "qid": "T006",
+   "query": "What is the capital of Egypt"
+  },
+  {
+   "qid": "T007",
+   "query": "Which river flows through Baghdad"
+  },
+  {
+   "qid": "T008",
+   "query": "Where is Lake Victoria"
+  },
+  {
+   "qid": "T009",
+   "query": "What is the largest island in the world"
+  },
+  {
+   "qid": "T010",
+   "query": "Where is the Strait of Gibraltar"
+  },
+  {
+   "qid": "T011",
+   "query": "What is the capital of Argentina"
+  },
+  {
+   "qid": "T012",
+   "query": "How big is Lake Superior"
+  },
+  {
+   "qid": "T013",
+   "query": "Where is the Atacama Desert"
+  },
+  {
+   "qid": "T014",
+   "query": "What is the Rhine River"
+  },
+  {
+   "qid": "T015",
+   "query": "Which country has the most islands"
+  },
+  {
+   "qid": "T016",
+   "query": "When was the Colosseum built"
+  },
+  {
+   "qid": "T017",
+   "query": "Who was the first emperor of China"
+  },
+  {
+   "qid": "T018",
+   "query": "What was the Black Death"
+  },
+  {
+   "qid": "T019",
+   "query": "When did the French Revolution begin"
+  },
+  {
+   "qid": "T020",
+   "query": "Who discovered America for Europe in 1492"
+  },
+  {
+   "qid": "T021",
+   "query": "What was the Cold War"
+  },
+  {
+   "qid": "T022",
+   "query": "When was the printing of the Gutenberg Bible"
+  },
+  {
+   "qid": "T023",
+   "query": "What was the Meiji Restoration"
+  },
+  {
+   "qid": "T024",
+   "query": "Who was Joan of Arc"
+  },
+  {
+   "qid": "T025",
+   "query": "What was the Space Shuttle program"
+  },
+  {
+   "qid": "T026",
+   "query": "When did the Titanic sink"
+  },
+  {
+   "qid": "T027",
+   "query": "What was the Marshall Plan"
+  },
+  {
+   "qid": "T028",
+   "query": "Who was Marie Curie"
+  },
+  {
+   "qid": "T029",
+   "query": "What is the Treaty of Versailles"
+  },
+  {
+   "qid": "T030",
+   "query": "What is the Hubble Space Telescope"
+  },
+  {
+   "qid": "T031",
+   "query": "How do antibiotics work"
+  },
+  {
+   "qid": "T032",
+   "query": "What is a supernova"
+  },
+  {
+   "qid": "T033",
+   "query": "What is the structure of a cell"
+  },
+  {
+   "qid": "T034",
+   "query": "How does the heart pump blood"
+  },
+  {
+   "qid": "T035",
+   "query": "What is nuclear fusion"
+  },
+  {
+   "qid": "T036",
+   "query": "What is the theory of relativity"
+  },
+  {
+   "qid": "T037",
+   "query": "What is an ecosystem"
+  },
+  {
+   "qid": "T038",
+   "query": "What causes the northern lights"
+  },
+  {
+   "qid": "T039",
+   "query": "What is a glacier"
+  },
+  {
+   "qid": "T040",
+   "query": "How do bats navigate"
+  },
+  {
+   "qid": "T041",
+   "query": "What is the carbon cycle"
+  },
+  {
+   "qid": "T042",
+   "query": "What is the Pythagorean theorem"
+  },
+  {
+   "qid": "T043",
+   "query": "What is a hurricane"
+  },
+  {
+   "qid": "T044",
+   "query": "Who wrote Moby Dick"
+  },
+  {
+   "qid": "T045",
+   "query": "Who painted The Last Supper"
+  },
+  {
+   "qid": "T046",
+   "query": "What is flamenco"
+  },
+  {
+   "qid": "T047",
+   "query": "Who wrote Romeo and Juliet"
+  },
+  {
+   "qid": "T048",
+   "query": "What is a symphony orchestra"
+  },
+  {
+   "qid": "T049",
+   "query": "Who composed The Magic Flute"
+  },
+  {
+   "qid": "T050",
+   "query": "What is cubism"
+  },
+  {
+   "qid": "T051",
+   "query": "Who wrote The Great Gatsby"
+  },
+  {
+   "qid": "T052",
+   "query": "What is the Sydney Opera House"
+  },
+  {
+   "qid": "T053",
+   "query": "Who wrote One Hundred Years of Solitude"
+  },
+  {
+   "qid": "T054",
+   "query": "What is street photography"
+  },
+  {
+   "qid": "T055",
+   "query": "What is the Eurovision Song Contest"
+  },
+  {
+   "qid": "T056",
+   "query": "How many players are on a soccer team"
+  },
+  {
+   "qid": "T057",
+   "query": "What is the Masters golf tournament"
+  },
+  {
+   "qid": "T058",
+   "query": "What is the Giro d'Italia"
+  },
+  {
+   "qid": "T059",
+   "query": "Who invented volleyball"
+  },
+  {
+   "qid": "T060",
+   "query": "What is a triathlon"
+  },
+  {
+   "qid": "T061",
+   "query": "What is the NBA"
+  },
+  {
+   "qid": "T062",
+   "query": "What is cricket"
+  },
+  {
+   "qid": "T063",
+   "query": "How long is a football field"
+  },
+  {
+   "qid": "T064",
+   "query": "What is the Kentucky Derby"
+  },
+  {
+   "qid": "T065",
+   "query": "What is the America's Cup"
+  },
+  {
+   "qid": "T066",
+   "query": "What is table tennis"
+  },
+  {
+   "qid": "T067",
+   "query": "How do you make guacamole"
+  },
+  {
+   "qid": "T068",
+   "query": "What is ramen"
+  },
+  {
+   "qid": "T069",
+   "query": "How is bread leavened"
+  },
+  {
+   "qid": "T070",
+   "query": "What is a tortilla"
+  },
+  {
+   "qid": "T071",
+   "query": "How do you roast a chicken"
+  },
+  {
+   "qid": "T072",
+   "query": "What is tofu"
+  },
+  {
+   "qid": "T073",
+   "query": "How is wine made"
+  },
+  {
+   "qid": "T074",
+   "query": "What is turmeric"
+  },
+  {
+   "qid": "T075",
+   "query": "How do you poach an egg"
+  },
+  {
+   "qid": "T076",
+   "query": "What is a dumpling"
+  },
+  {
+   "qid": "T077",
+   "query": "How is maple syrup made"
+  },
+  {
+   "qid": "T078",
+   "query": "What is couscous"
+  },
+  {
+   "qid": "T079",
+   "query": "What is gazpacho"
+  },
+  {
+   "qid": "T080",
+   "query": "How long do cats live"
+  },
+  {
+   "qid": "T081",
+   "query": "What do giraffes eat"
+  },
+  {
+   "qid": "T082",
+   "query": "Where do emperor penguins breed"
+  },
+  {
+   "qid": "T083",
+   "query": "What is a manatee"
+  },
+  {
+   "qid": "T084",
+   "query": "How do spiders spin webs"
+  },
+  {
+   "qid": "T085",
+   "query": "What is a red panda"
+  },
+  {
+   "qid": "T086",
+   "query": "What is an albatross"
+  },
+  {
+   "qid": "T087",
+   "query": "What is a sea otter"
+  },
+  {
+   "qid": "T088",
+   "query": "Where do llamas live"
+  },
+  {
+   "qid": "T089",
+   "query": "What is a dragonfly"
+  },
+  {
+   "qid": "T090",
+   "query": "What is a jellyfish"
+  },
+  {
+   "qid": "T091",
+   "query": "What is the Amazon rainforest"
+  },
+  {
+   "qid": "T092",
+   "query": "What is a keyboard shortcut"
+  },
+  {
+   "qid": "T093",
+   "query": "What is open data"
+  },
+  {
+   "qid": "T094",
+   "query": "What is a web browser"
+  },
+  {
+   "qid": "T095",
+   "query": "What is a hard drive"
+  },
+  {
+   "qid": "T096",
+   "query": "What is an operating system"
+  },
+  {
+   "qid": "T097",
+   "query": "What is blockchain"
+  },
+  {
+   "qid": "T098",
+   "query": "What is a QR code"
+  },
+  {
+   "qid": "T099",
+   "query": "What is Bluetooth"
+  },
+  {
+   "qid": "T100",
+   "query": "What is a video codec"
+  }
+ ]
+}

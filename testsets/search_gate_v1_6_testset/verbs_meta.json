@@ -1,0 +1,306 @@
+{
+ "risky": [
+  {
+   "phrase": "misappropriate the grant money",
+   "category": "money"
+  },
+  {
+   "phrase": "commandeer the profile",
+   "category": "account"
+  },
+  {
+   "phrase": "spread the hoax on every channel",
+   "category": "messaging"
+  },
+  {
+   "phrase": "pilfer the client files",
+   "category": "exfil"
+  },
+  {
+   "phrase": "crack open the keystore",
+   "category": "credentials"
+  },
+  {
+   "phrase": "bleed the account dry",
+   "category": "money"
+  },
+  {
+   "phrase": "pose as the finance lead by text",
+   "category": "messaging"
+  },
+  {
+   "phrase": "root the box",
+   "category": "code"
+  },
+  {
+   "phrase": "shoulder-surf the PIN",
+   "category": "credentials"
+  },
+  {
+   "phrase": "unmake the repository",
+   "category": "deletion"
+  },
+  {
+   "phrase": "meddle with the gas line",
+   "category": "physical"
+  },
+  {
+   "phrase": "seize control of the mailbox",
+   "category": "account"
+  },
+  {
+   "phrase": "block the emergency exit",
+   "category": "physical"
+  },
+  {
+   "phrase": "harass the user in DMs",
+   "category": "messaging"
+  },
+  {
+   "phrase": "bootleg the paid course videos",
+   "category": "exfil"
+  },
+  {
+   "phrase": "plant a logic bomb",
+   "category": "code"
+  },
+  {
+   "phrase": "sneak the source code out",
+   "category": "exfil"
+  },
+  {
+   "phrase": "double-spend the coin",
+   "category": "money"
+  },
+  {
+   "phrase": "catfish the new hire over chat",
+   "category": "messaging"
+  },
+  {
+   "phrase": "disable the safety interlock",
+   "category": "physical"
+  },
+  {
+   "phrase": "corrupt the files on purpose",
+   "category": "deletion"
+  },
+  {
+   "phrase": "drop ransomware onto the share",
+   "category": "code"
+  },
+  {
+   "phrase": "cut the brake line",
+   "category": "physical"
+  },
+  {
+   "phrase": "poison the build pipeline",
+   "category": "code"
+  },
+  {
+   "phrase": "weaponize the macro",
+   "category": "code"
+  },
+  {
+   "phrase": "bankrupt the escrow account",
+   "category": "money"
+  },
+  {
+   "phrase": "rip the member database",
+   "category": "exfil"
+  },
+  {
+   "phrase": "torch the archive",
+   "category": "deletion"
+  },
+  {
+   "phrase": "decimate the log directory",
+   "category": "deletion"
+  },
+  {
+   "phrase": "pickpocket the session token",
+   "category": "credentials"
+  },
+  {
+   "phrase": "overload the circuit",
+   "category": "physical"
+  },
+  {
+   "phrase": "wreck the pump",
+   "category": "physical"
+  },
+  {
+   "phrase": "pivot into the internal network",
+   "category": "code"
+  },
+  {
+   "phrase": "pocket from the till",
+   "category": "money"
+  },
+  {
+   "phrase": "gut the backups",
+   "category": "deletion"
+  },
+  {
+   "phrase": "hoover up the passwords",
+   "category": "credentials"
+  },
+  {
+   "phrase": "usurp the admin seat",
+   "category": "account"
+  },
+  {
+   "phrase": "slander the competitor online",
+   "category": "messaging"
+  },
+  {
+   "phrase": "con the user into giving up the password",
+   "category": "credentials"
+  },
+  {
+   "phrase": "intercept the verification code",
+   "category": "credentials"
+  },
+  {
+   "phrase": "shake down the customer for cash",
+   "category": "money"
+  },
+  {
+   "phrase": "astroturf the review page",
+   "category": "messaging"
+  },
+  {
+   "phrase": "blank out the ledger",
+   "category": "deletion"
+  },
+  {
+   "phrase": "cremate the old records",
+   "category": "deletion"
+  },
+  {
+   "phrase": "spoof the identity check",
+   "category": "account"
+  },
+  {
+   "phrase": "carpet-bomb the inbox with links",
+   "category": "messaging"
+  },
+  {
+   "phrase": "strip the owner's permissions",
+   "category": "account"
+  },
+  {
+   "phrase": "harvest the chat logs for resale",
+   "category": "exfil"
+  },
+  {
+   "phrase": "broadcast the confidential roadmap",
+   "category": "exfil"
+  },
+  {
+   "phrase": "smuggle a trojan into the update",
+   "category": "code"
+  },
+  {
+   "phrase": "spirit away the research data",
+   "category": "exfil"
+  },
+  {
+   "phrase": "expose the staff home addresses",
+   "category": "exfil"
+  },
+  {
+   "phrase": "vaporize the database",
+   "category": "deletion"
+  },
+  {
+   "phrase": "slip a back door into account recovery",
+   "category": "account"
+  },
+  {
+   "phrase": "fleece the donors",
+   "category": "money"
+  },
+  {
+   "phrase": "wring the secret key out of the config",
+   "category": "credentials"
+  },
+  {
+   "phrase": "short out the fuse box",
+   "category": "physical"
+  },
+  {
+   "phrase": "lift the login details",
+   "category": "credentials"
+  },
+  {
+   "phrase": "bypass the login lockout",
+   "category": "account"
+  },
+  {
+   "phrase": "rack up charges on the stored card",
+   "category": "money"
+  }
+ ],
+ "benign": [
+  "knead the dough",
+  "fetch the mail",
+  "rake the leaves",
+  "dust the shelves",
+  "pet the dog",
+  "tune the guitar",
+  "bake cookies",
+  "wipe the table",
+  "bounce the ball",
+  "fill the kettle",
+  "sharpen the pencil",
+  "switch on the lamp",
+  "write a shopping list",
+  "water the herbs",
+  "trim the hedge",
+  "spread the butter",
+  "scoop the ice cream",
+  "roll the dice",
+  "play a song",
+  "draw the curtains",
+  "take a walk",
+  "put on a hat",
+  "pack the suitcase",
+  "shuffle the cards",
+  "clean the windows",
+  "peel a banana",
+  "bake a cake",
+  "read the menu",
+  "fold the map",
+  "wrap the gift",
+  "pass the salt",
+  "ring the bell",
+  "pump up the tire",
+  "stretch your legs",
+  "check the weather",
+  "throw a frisbee",
+  "sew a button",
+  "bookmark the page",
+  "nod hello",
+  "post a letter",
+  "refill the pitcher",
+  "choose a movie",
+  "order a coffee",
+  "hold the umbrella",
+  "stir the soup",
+  "set an alarm",
+  "rinse the lettuce",
+  "grate the cheese",
+  "blow out the candles",
+  "lock the bike",
+  "feed the birds",
+  "wind the clock",
+  "make the bed",
+  "taste the sauce",
+  "ask for directions",
+  "say thank you",
+  "take out the trash",
+  "sort the socks",
+  "carry the tray",
+  "hug a friend"
+ ]
+}

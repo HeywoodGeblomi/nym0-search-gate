@@ -1,0 +1,1598 @@
+{
+ "started_at": "2026-11-20 08:25:36 EST",
+ "hashes": {
+  "bin_v1_6": "c5538ad4b7eb5f745117ac4567bb21b368387c3f2920fa656c1632265b7fa84f",
+  "bin_v1_5": "ac2cddb4e588bb10da83600b492c91e9f49858c0031f1af221a6a3b8337e43d8",
+  "bin_v1_4": "7bf3fdd80cd9ece8cb1adc70261261632faa3dd927c630d8793221735e2446dc",
+  "newset": "6618fcccc98dbd11585d18522384548d1fba55ee142817300bd9864b190c5eac",
+  "old_test_set": "e54f1c584a0253539ccff0971007a2dc4901e02553088e6a6a706ab87ea75c7c",
+  "old_slice": "e6b2173c49d16695a09c48e05f31001bdad9a34428c11b83f633d00e54e7cc74",
+  "abc": "acdd2b302795472c4e365582f3840559621e47be887d11685b7eee0fd1cf41a0",
+  "v1_set": "b45fae8eef3d34327e7b10840be43d8d52679d6b71620e90cb4ad9fc364dbd2b",
+  "v1_2_set": "66a182168525399d2ff8cf914fe41dd7b41471be49ec40adf30b7db8b84c0a3d",
+  "v1_3_set": "18947b04547afe45e15ac1f92ba0027eceb038e3d20e14c864ba8f681f0506c0",
+  "classifier_v1_6": "c7c30aec79b029e17761ab8684ea51615233f8615b20f92a2e8d337c44f659d5",
+  "classifier_v1_2": "b0906cf295f1acd89df8a70a5a91f25e67cb8336c4376a16ef6371a2a286a3bf",
+  "howto16_py": "adcd91cc9375e0b80f1254ddce4e496b8c3643a7dbcf68af4d311323959622a4",
+  "instruction_check_py": "4ddd12d87423e82cd850f0f0c77c6a096b8b4feed1624165fc789568df2103e2",
+  "pipeline_rs": "fa8a6b72770390acd753ebfa99ed1bf56d03487b8df7b8d9d67cefcb999ddf26",
+  "map_table_v15.json": "19a6673e02ec81c57d4a1d78359e84edb018fb55325226edab6d44c173167319",
+  "map_table_v15.bin": "ba9c2ed617d81bf0f1dab763bc5c51e8af6d04da3e1bd330859bf4e0e01b6cfe",
+  "encoder_f32.bin": "68e46af3794c794ae58fc6dbed7539e16014fdfcf9547437be5f8e08cfab30d6",
+  "verbmap_v15.json": "3002598fd9a8c1ed773f87814d7b3811a567c6da61939d356f2f22d0c0e80e6b",
+  "map_check15_py": "9b7a02d581400e386d9f5f7806942844e005c21884c263ef5b8aad1fad5cffef",
+  "mapcheck_rs": "bfc0e004631f9a43756c471b14a65f52ac27a2966a6002d1766fe3b90ee16414"
+ },
+ "new_v16": {
+  "returncode": 0,
+  "panic": false,
+  "decided": 360,
+  "total": 360,
+  "by": {
+   "HOLD/hold": 167,
+   "ALLOW/allow": 151,
+   "HOLD/allow": 13,
+   "ALLOW/hold": 29
+  },
+  "layers": {
+   "HOLD/hold/classifier": 53,
+   "HOLD/hold/content_phrase": 8,
+   "ALLOW/allow/fast": 151,
+   "HOLD/hold/instruction_check": 53,
+   "HOLD/hold/meaning_map": 51,
+   "HOLD/allow/fast": 13,
+   "ALLOW/hold/classifier": 10,
+   "ALLOW/hold/meaning_map": 12,
+   "ALLOW/hold/instruction_check": 7,
+   "HOLD/hold/content_exfil": 2
+  },
+  "fire_weapon_outputs": 0,
+  "emitted_on_hold": 0,
+  "log_ok": true,
+  "log_detail": {
+   "verify": {
+    "ok": true,
+    "records": 361,
+    "last_hash": "c43c0935880b5e9ae760deadc397ddb4d1464d49a57774b9de78a67bbf9b6e16"
+   },
+   "replay": {
+    "chain_ok": true,
+    "chain_problem": null,
+    "decisions": 360,
+    "other_records": 1,
+    "mismatches": 0,
+    "mismatch_examples": []
+   },
+   "tamper": {
+    "ok": false,
+    "problem": "record 181: hash does not match its content"
+   }
+  },
+  "log_sha256": "61987290e9f6e519971ba160e16b1bd4c033ce268607f30d24a0ca0b8c38ad53",
+  "out_sha256": "556c0edbcb6ac0197a5b29b4a97fa018f36efee7a3ab561f2e202354c80d7e89",
+  "stderr_tail": "xfil\":2,\"content_phrase\":8,\"fast\":164,\"instruction_check\":60,\"meaning_map\":63},\"fast_decide_median_us\":5432.696,\"fallback_roundtrip_median_ms\":null,\"fallback_answered\":0,\"wall_s_inside_driver\":8.705}\n"
+ },
+ "new_v15": {
+  "returncode": 0,
+  "panic": false,
+  "decided": 360,
+  "total": 360,
+  "by": {
+   "HOLD/hold": 133,
+   "ALLOW/hold": 56,
+   "ALLOW/allow": 124,
+   "HOLD/allow": 47
+  },
+  "layers": {
+   "HOLD/hold/classifier": 22,
+   "HOLD/hold/instruction_check": 52,
+   "HOLD/hold/content_phrase": 8,
+   "ALLOW/hold/meaning_map": 13,
+   "ALLOW/allow/fast": 124,
+   "HOLD/allow/fast": 47,
+   "HOLD/hold/meaning_map": 49,
+   "ALLOW/hold/classifier": 29,
+   "ALLOW/hold/instruction_check": 14,
+   "HOLD/hold/content_exfil": 2
+  },
+  "fire_weapon_outputs": 0,
+  "emitted_on_hold": 0,
+  "log_ok": true,
+  "log_detail": {
+   "verify": {
+    "ok": true,
+    "records": 361,
+    "last_hash": "3d9b157b38e47be1ebfeaeaf695c5ba8681e07ac9ff56e6b7a3c5972bab38b75"
+   },
+   "replay": {
+    "chain_ok": true,
+    "chain_problem": null,
+    "decisions": 360,
+    "other_records": 1,
+    "mismatches": 0,
+    "mismatch_examples": []
+   },
+   "tamper": {
+    "ok": false,
+    "problem": "record 181: hash does not match its content"
+   }
+  },
+  "log_sha256": "cc1863199c39bf0f2b86e197087c702b119355ffbaba4fd1059539abb697b87d",
+  "out_sha256": "5fd9c0304740e1e75611ee5ef14b0fcb9b990a364badf8b763321710815e32d2",
+  "stderr_tail": "xfil\":2,\"content_phrase\":8,\"fast\":171,\"instruction_check\":66,\"meaning_map\":62},\"fast_decide_median_us\":4159.790,\"fallback_roundtrip_median_ms\":null,\"fallback_answered\":0,\"wall_s_inside_driver\":5.280}\n"
+ },
+ "new_v14": {
+  "returncode": 0,
+  "panic": false,
+  "decided": 360,
+  "total": 360,
+  "by": {
+   "HOLD/hold": 109,
+   "ALLOW/hold": 55,
+   "ALLOW/allow": 125,
+   "HOLD/allow": 71
+  },
+  "layers": {
+   "HOLD/hold/classifier": 22,
+   "HOLD/hold/instruction_check": 52,
+   "HOLD/hold/content_phrase": 8,
+   "ALLOW/hold/meaning_map": 12,
+   "ALLOW/allow/fast": 125,
+   "HOLD/allow/fast": 71,
+   "HOLD/hold/meaning_map": 25,
+   "ALLOW/hold/classifier": 29,
+   "ALLOW/hold/instruction_check": 14,
+   "HOLD/hold/content_exfil": 2
+  },
+  "fire_weapon_outputs": 0,
+  "emitted_on_hold": 0,
+  "log_ok": true,
+  "log_detail": {
+   "verify": {
+    "ok": true,
+    "records": 361,
+    "last_hash": "09108a9dea5f0c3130ece87faa925c4132c894f1909332e07aa95dc7cb99825c"
+   },
+   "replay": {
+    "chain_ok": true,
+    "chain_problem": null,
+    "decisions": 360,
+    "other_records": 1,
+    "mismatches": 0,
+    "mismatch_examples": []
+   },
+   "tamper": {
+    "ok": false,
+    "problem": "record 181: hash does not match its content"
+   }
+  },
+  "log_sha256": "bc4f36d345d33f28ce0677686015c1f3f01d23a9a82c3d082ec35141db8684f5",
+  "out_sha256": "ee3f0ebfea99d48a533ca95774a6fcd08b2e4669656ee964ce611fd75015339c",
+  "stderr_tail": "xfil\":2,\"content_phrase\":8,\"fast\":196,\"instruction_check\":66,\"meaning_map\":37},\"fast_decide_median_us\":2810.806,\"fallback_roundtrip_median_ms\":null,\"fallback_answered\":0,\"wall_s_inside_driver\":1.576}\n"
+ },
+ "old_v16": {
+  "returncode": 0,
+  "panic": false,
+  "decided": 160,
+  "total": 160,
+  "by": {
+   "ALLOW/allow": 80,
+   "HOLD/hold": 80
+  },
+  "layers": {
+   "ALLOW/allow/fast": 80,
+   "HOLD/hold/classifier": 23,
+   "HOLD/hold/instruction_check": 33,
+   "HOLD/hold/content_call": 10,
+   "HOLD/hold/meaning_map": 12,
+   "HOLD/hold/content_tool_mention": 2
+  },
+  "fire_weapon_outputs": 0,
+  "emitted_on_hold": 0,
+  "log_ok": true,
+  "log_detail": {
+   "verify": {
+    "ok": true,
+    "records": 161,
+    "last_hash": "0ef8c91832f7782fb077767edad05f551318e371939d47b2b3afcc91bd25f063"
+   },
+   "replay": {
+    "chain_ok": true,
+    "chain_problem": null,
+    "decisions": 160,
+    "other_records": 1,
+    "mismatches": 0,
+    "mismatch_examples": []
+   },
+   "tamper": {
+    "ok": false,
+    "problem": "record 81: hash does not match its content"
+   }
+  },
+  "log_sha256": "4ec219d60a430474f698ae866668a8bef1a36316f909d4549169ba5a5bf42121",
+  "out_sha256": "7fa4a6ffae43705108af7e719173d5f84a4fb83d18594e6f857a0f20d332c86c",
+  "stderr_tail": "10,\"content_tool_mention\":2,\"fast\":80,\"instruction_check\":33,\"meaning_map\":12},\"fast_decide_median_us\":2913.460,\"fallback_roundtrip_median_ms\":null,\"fallback_answered\":0,\"wall_s_inside_driver\":1.587}\n"
+ },
+ "old_v15": {
+  "returncode": 0,
+  "panic": false,
+  "decided": 160,
+  "total": 160,
+  "by": {
+   "ALLOW/allow": 80,
+   "HOLD/hold": 80
+  },
+  "layers": {
+   "ALLOW/allow/fast": 80,
+   "HOLD/hold/classifier": 14,
+   "HOLD/hold/instruction_check": 41,
+   "HOLD/hold/content_call": 10,
+   "HOLD/hold/meaning_map": 13,
+   "HOLD/hold/content_tool_mention": 2
+  },
+  "fire_weapon_outputs": 0,
+  "emitted_on_hold": 0,
+  "log_ok": true,
+  "log_detail": {
+   "verify": {
+    "ok": true,
+    "records": 161,
+    "last_hash": "d203738a15105e38d2d6f8def490380d885d887f769a27fdfc3cb30770fa8b7d"
+   },
+   "replay": {
+    "chain_ok": true,
+    "chain_problem": null,
+    "decisions": 160,
+    "other_records": 1,
+    "mismatches": 0,
+    "mismatch_examples": []
+   },
+   "tamper": {
+    "ok": false,
+    "problem": "record 81: hash does not match its content"
+   }
+  },
+  "log_sha256": "fbcba6f6c1582790318343746e8fbb57ec712446e30a76723c4b49cd7ba953f7",
+  "out_sha256": "f3b90bddf09b73de6ae08bd9e4be24a49b7fbbbf899ca22144f06ae1fcca9a03",
+  "stderr_tail": "10,\"content_tool_mention\":2,\"fast\":80,\"instruction_check\":41,\"meaning_map\":13},\"fast_decide_median_us\":2437.453,\"fallback_roundtrip_median_ms\":null,\"fallback_answered\":0,\"wall_s_inside_driver\":1.351}\n"
+ },
+ "old_v14": {
+  "returncode": 0,
+  "panic": false,
+  "decided": 160,
+  "total": 160,
+  "by": {
+   "ALLOW/allow": 80,
+   "HOLD/hold": 73,
+   "HOLD/allow": 7
+  },
+  "layers": {
+   "ALLOW/allow/fast": 80,
+   "HOLD/hold/classifier": 14,
+   "HOLD/hold/instruction_check": 41,
+   "HOLD/hold/content_call": 10,
+   "HOLD/allow/fast": 7,
+   "HOLD/hold/content_tool_mention": 2,
+   "HOLD/hold/meaning_map": 6
+  },
+  "fire_weapon_outputs": 0,
+  "emitted_on_hold": 0,
+  "log_ok": true,
+  "log_detail": {
+   "verify": {
+    "ok": true,
+    "records": 161,
+    "last_hash": "17b613d74093d16c35c81f57c7d971b4e6994f34b78bcde2012dc2ad6cf7124a"
+   },
+   "replay": {
+    "chain_ok": true,
+    "chain_problem": null,
+    "decisions": 160,
+    "other_records": 1,
+    "mismatches": 0,
+    "mismatch_examples": []
+   },
+   "tamper": {
+    "ok": false,
+    "problem": "record 81: hash does not match its content"
+   }
+  },
+  "log_sha256": "5e10f27731071bb63efb9443202b213bec3e0fd08f56ad5a42ed71d84cefff50",
+  "out_sha256": "80ed7d3aa85e6742ed3119d1dc13b8d46069a149b06d737647fb8ae2bf33978f",
+  "stderr_tail": ":10,\"content_tool_mention\":2,\"fast\":87,\"instruction_check\":41,\"meaning_map\":6},\"fast_decide_median_us\":1652.551,\"fallback_roundtrip_median_ms\":null,\"fallback_answered\":0,\"wall_s_inside_driver\":0.435}\n"
+ },
+ "oldslice_v16": {
+  "returncode": 0,
+  "panic": false,
+  "decided": 80,
+  "total": 80,
+  "by": {
+   "HOLD/hold": 40,
+   "ALLOW/hold": 6,
+   "ALLOW/allow": 34
+  },
+  "layers": {
+   "HOLD/hold/classifier": 12,
+   "HOLD/hold/meaning_map": 28,
+   "ALLOW/hold/classifier": 3,
+   "ALLOW/allow/fast": 34,
+   "ALLOW/hold/meaning_map": 3
+  },
+  "fire_weapon_outputs": 0,
+  "emitted_on_hold": 0,
+  "log_ok": true,
+  "log_detail": {
+   "verify": {
+    "ok": true,
+    "records": 81,
+    "last_hash": "e71ffc69ee38a2c95672ff638c1ae8d65f7fb99b25a8264c48a3542982cd62e9"
+   },
+   "replay": {
+    "chain_ok": true,
+    "chain_problem": null,
+    "decisions": 80,
+    "other_records": 1,
+    "mismatches": 0,
+    "mismatch_examples": []
+   },
+   "tamper": {
+    "ok": false,
+    "problem": "record 41: hash does not match its content"
+   }
+  },
+  "log_sha256": "7c87d92bb6fdbc06b1529c5a90679aa1c84d8ad78bb313433b90a03cb07c8e6c",
+  "out_sha256": "a9d45c3f46a22d14469a405621b4d548a4fd8b8b51ad169e8b9247ed2c58a6b4",
+  "stderr_tail": "cts\":34,\"sessions\":80,\"by_layer\":{\"classifier\":15,\"fast\":34,\"meaning_map\":31},\"fast_decide_median_us\":37330.299,\"fallback_roundtrip_median_ms\":null,\"fallback_answered\":0,\"wall_s_inside_driver\":2.238}\n"
+ },
+ "oldslice_v15": {
+  "returncode": 0,
+  "panic": false,
+  "decided": 80,
+  "total": 80,
+  "by": {
+   "HOLD/hold": 40,
+   "ALLOW/allow": 37,
+   "ALLOW/hold": 3
+  },
+  "layers": {
+   "HOLD/hold/classifier": 6,
+   "HOLD/hold/meaning_map": 34,
+   "ALLOW/allow/fast": 37,
+   "ALLOW/hold/meaning_map": 3
+  },
+  "fire_weapon_outputs": 0,
+  "emitted_on_hold": 0,
+  "log_ok": true,
+  "log_detail": {
+   "verify": {
+    "ok": true,
+    "records": 81,
+    "last_hash": "988a43f0df68fcfb38116073522ade16e105ab3b47537564b6bd366bd81376cc"
+   },
+   "replay": {
+    "chain_ok": true,
+    "chain_problem": null,
+    "decisions": 80,
+    "other_records": 1,
+    "mismatches": 0,
+    "mismatch_examples": []
+   },
+   "tamper": {
+    "ok": false,
+    "problem": "record 41: hash does not match its content"
+   }
+  },
+  "log_sha256": "53e336692216d1759d438e164783424ed222a45196e56d0a4e56ef2ab560ebe4",
+  "out_sha256": "e33f65c704d987ba6ca3ce3c516974f19a498b0dcdd1468551ea8370be76829b",
+  "stderr_tail": "acts\":37,\"sessions\":80,\"by_layer\":{\"classifier\":6,\"fast\":37,\"meaning_map\":37},\"fast_decide_median_us\":17646.291,\"fallback_roundtrip_median_ms\":null,\"fallback_answered\":0,\"wall_s_inside_driver\":1.556}\n"
+ },
+ "oldslice_v14": {
+  "returncode": 0,
+  "panic": false,
+  "decided": 80,
+  "total": 80,
+  "by": {
+   "HOLD/hold": 27,
+   "HOLD/allow": 13,
+   "ALLOW/allow": 38,
+   "ALLOW/hold": 2
+  },
+  "layers": {
+   "HOLD/hold/classifier": 6,
+   "HOLD/allow/fast": 13,
+   "HOLD/hold/meaning_map": 21,
+   "ALLOW/allow/fast": 38,
+   "ALLOW/hold/meaning_map": 2
+  },
+  "fire_weapon_outputs": 0,
+  "emitted_on_hold": 0,
+  "log_ok": true,
+  "log_detail": {
+   "verify": {
+    "ok": true,
+    "records": 81,
+    "last_hash": "00e699b1907d5a5bd5202ba9dab571f58da439bb00c81b6ed53d4bb2aa9109bf"
+   },
+   "replay": {
+    "chain_ok": true,
+    "chain_problem": null,
+    "decisions": 80,
+    "other_records": 1,
+    "mismatches": 0,
+    "mismatch_examples": []
+   },
+   "tamper": {
+    "ok": false,
+    "problem": "record 41: hash does not match its content"
+   }
+  },
+  "log_sha256": "12a20cd24cac9c8a0e5c4cc28aca663a51fde4dfe7607152eb1d1fd5a17ea043",
+  "out_sha256": "a852b9af48aabb2e5ba16d17821ca117a77d82021d5f02f85afd756c12301c13",
+  "stderr_tail": "\"acts\":51,\"sessions\":80,\"by_layer\":{\"classifier\":6,\"fast\":51,\"meaning_map\":23},\"fast_decide_median_us\":5211.636,\"fallback_roundtrip_median_ms\":null,\"fallback_answered\":0,\"wall_s_inside_driver\":0.466}\n"
+ },
+ "v13set_v16": {
+  "returncode": 0,
+  "panic": false,
+  "decided": 160,
+  "total": 160,
+  "by": {
+   "ALLOW/allow": 80,
+   "HOLD/hold": 77,
+   "HOLD/allow": 3
+  },
+  "layers": {
+   "ALLOW/allow/fast": 80,
+   "HOLD/hold/classifier": 32,
+   "HOLD/hold/content_phrase": 1,
+   "HOLD/hold/content_tool_mention": 8,
+   "HOLD/hold/instruction_check": 23,
+   "HOLD/allow/fast": 3,
+   "HOLD/hold/meaning_map": 8,
+   "HOLD/hold/content_call": 5
+  },
+  "fire_weapon_outputs": 0,
+  "emitted_on_hold": 0,
+  "log_ok": true,
+  "log_detail": {
+   "verify": {
+    "ok": true,
+    "records": 161,
+    "last_hash": "e674227693eb2e16efb7077a2494afeb77d162bcbef52e258e11be8ef89e2868"
+   },
+   "replay": {
+    "chain_ok": true,
+    "chain_problem": null,
+    "decisions": 160,
+    "other_records": 1,
+    "mismatches": 0,
+    "mismatch_examples": []
+   },
+   "tamper": {
+    "ok": false,
+    "problem": "record 81: hash does not match its content"
+   }
+  },
+  "log_sha256": "5d998834a3ceafbfebb8f682812c178d69c3650fad8f6b7f9e219785c8ac3f4f",
+  "out_sha256": "a3c2b3cb5d9829fe0fb304576030d8fc72173614168439454b7cbac147e5e494",
+  "stderr_tail": "\":1,\"content_tool_mention\":8,\"fast\":83,\"instruction_check\":23,\"meaning_map\":8},\"fast_decide_median_us\":2628.501,\"fallback_roundtrip_median_ms\":null,\"fallback_answered\":0,\"wall_s_inside_driver\":1.387}\n"
+ },
+ "v13set_v15": {
+  "returncode": 0,
+  "panic": false,
+  "decided": 160,
+  "total": 160,
+  "by": {
+   "ALLOW/allow": 79,
+   "ALLOW/hold": 1,
+   "HOLD/hold": 77,
+   "HOLD/allow": 3
+  },
+  "layers": {
+   "ALLOW/allow/fast": 79,
+   "ALLOW/hold/classifier": 1,
+   "HOLD/hold/instruction_check": 32,
+   "HOLD/hold/content_phrase": 1,
+   "HOLD/hold/classifier": 19,
+   "HOLD/hold/content_tool_mention": 8,
+   "HOLD/hold/meaning_map": 12,
+   "HOLD/allow/fast": 3,
+   "HOLD/hold/content_call": 5
+  },
+  "fire_weapon_outputs": 0,
+  "emitted_on_hold": 0,
+  "log_ok": true,
+  "log_detail": {
+   "verify": {
+    "ok": true,
+    "records": 161,
+    "last_hash": "fdc1eda71e339bac6576fc7363f08c1b482904cbd4f60a7d29805de27cd5efdb"
+   },
+   "replay": {
+    "chain_ok": true,
+    "chain_problem": null,
+    "decisions": 160,
+    "other_records": 1,
+    "mismatches": 0,
+    "mismatch_examples": []
+   },
+   "tamper": {
+    "ok": false,
+    "problem": "record 81: hash does not match its content"
+   }
+  },
+  "log_sha256": "033aec3d081a009bf5ef5b2f84622524c4e9371fe1acc0710ed0b88e847fd21e",
+  "out_sha256": "a9b6405ae1de8a96aaf0e7648ac32598429b3ca479f76b17d6b74a38077ef331",
+  "stderr_tail": ":1,\"content_tool_mention\":8,\"fast\":82,\"instruction_check\":32,\"meaning_map\":12},\"fast_decide_median_us\":2247.857,\"fallback_roundtrip_median_ms\":null,\"fallback_answered\":0,\"wall_s_inside_driver\":1.308}\n"
+ },
+ "v12set_v16": {
+  "returncode": 0,
+  "panic": false,
+  "decided": 160,
+  "total": 160,
+  "by": {
+   "ALLOW/allow": 80,
+   "HOLD/hold": 71,
+   "HOLD/allow": 9
+  },
+  "layers": {
+   "ALLOW/allow/fast": 80,
+   "HOLD/hold/instruction_check": 14,
+   "HOLD/hold/classifier": 40,
+   "HOLD/hold/content_call": 16,
+   "HOLD/allow/fast": 9,
+   "HOLD/hold/meaning_map": 1
+  },
+  "fire_weapon_outputs": 0,
+  "emitted_on_hold": 0,
+  "log_ok": true,
+  "log_detail": {
+   "verify": {
+    "ok": true,
+    "records": 161,
+    "last_hash": "fde1a8e5a20d278acdafa20b37339f65bcdff9dbc8fe307adad2aef397bd37b5"
+   },
+   "replay": {
+    "chain_ok": true,
+    "chain_problem": null,
+    "decisions": 160,
+    "other_records": 1,
+    "mismatches": 0,
+    "mismatch_examples": []
+   },
+   "tamper": {
+    "ok": false,
+    "problem": "record 81: hash does not match its content"
+   }
+  },
+  "log_sha256": "b625c652d92f29e4833ea48d90eedf0683fb9154ee73a8bf703a8ca5706c455d",
+  "out_sha256": "9afdc8eb6328efdd89746addd9249f176446b731aa80f0ff50a34e245d0203cd",
+  "stderr_tail": "sifier\":40,\"content_call\":16,\"fast\":89,\"instruction_check\":14,\"meaning_map\":1},\"fast_decide_median_us\":2667.937,\"fallback_roundtrip_median_ms\":null,\"fallback_answered\":0,\"wall_s_inside_driver\":1.124}\n"
+ },
+ "v12set_v15": {
+  "returncode": 0,
+  "panic": false,
+  "decided": 160,
+  "total": 160,
+  "by": {
+   "ALLOW/allow": 79,
+   "ALLOW/hold": 1,
+   "HOLD/hold": 73,
+   "HOLD/allow": 7
+  },
+  "layers": {
+   "ALLOW/allow/fast": 79,
+   "ALLOW/hold/classifier": 1,
+   "HOLD/hold/instruction_check": 15,
+   "HOLD/hold/classifier": 40,
+   "HOLD/hold/content_call": 16,
+   "HOLD/hold/meaning_map": 2,
+   "HOLD/allow/fast": 7
+  },
+  "fire_weapon_outputs": 0,
+  "emitted_on_hold": 0,
+  "log_ok": true,
+  "log_detail": {
+   "verify": {
+    "ok": true,
+    "records": 161,
+    "last_hash": "6bbd214215b8dcce3e62f9714daa6b782abd1e01acbf2ca41ce35faaf8f729af"
+   },
+   "replay": {
+    "chain_ok": true,
+    "chain_problem": null,
+    "decisions": 160,
+    "other_records": 1,
+    "mismatches": 0,
+    "mismatch_examples": []
+   },
+   "tamper": {
+    "ok": false,
+    "problem": "record 81: hash does not match its content"
+   }
+  },
+  "log_sha256": "c78b9faf92974bef3371e7a05ea3abe2128a808ff6f5e4c943d945ea7a6e4745",
+  "out_sha256": "b467c8da2be1ca206baa74d1d72edcf598d73b7a14dc9a298a58cc54e8264b08",
+  "stderr_tail": "sifier\":41,\"content_call\":16,\"fast\":86,\"instruction_check\":15,\"meaning_map\":2},\"fast_decide_median_us\":2280.436,\"fallback_roundtrip_median_ms\":null,\"fallback_answered\":0,\"wall_s_inside_driver\":1.017}\n"
+ },
+ "v1set_v16": {
+  "returncode": 0,
+  "panic": false,
+  "decided": 160,
+  "total": 160,
+  "by": {
+   "ALLOW/allow": 80,
+   "HOLD/hold": 76,
+   "HOLD/allow": 4
+  },
+  "layers": {
+   "ALLOW/allow/fast": 80,
+   "HOLD/hold/classifier": 38,
+   "HOLD/hold/content_phrase": 16,
+   "HOLD/hold/content_call": 16,
+   "HOLD/allow/fast": 4,
+   "HOLD/hold/meaning_map": 4,
+   "HOLD/hold/instruction_check": 2
+  },
+  "fire_weapon_outputs": 0,
+  "emitted_on_hold": 0,
+  "log_ok": true,
+  "log_detail": {
+   "verify": {
+    "ok": true,
+    "records": 161,
+    "last_hash": "5c480b9281453a75b432eefb0dd6f4103d22d22fd6fd91b5ddf1203515559c6d"
+   },
+   "replay": {
+    "chain_ok": true,
+    "chain_problem": null,
+    "decisions": 160,
+    "other_records": 1,
+    "mismatches": 0,
+    "mismatch_examples": []
+   },
+   "tamper": {
+    "ok": false,
+    "problem": "record 81: hash does not match its content"
+   }
+  },
+  "log_sha256": "e9134f98c34604d0f06713868cfb0d4bafd1454d4649933851928277644f7dce",
+  "out_sha256": "8e24b356dad5f845b84ac7f5035ca31c629110d56d9f6e0d9db90c296f04b226",
+  "stderr_tail": "_call\":16,\"content_phrase\":16,\"fast\":84,\"instruction_check\":2,\"meaning_map\":4},\"fast_decide_median_us\":3607.624,\"fallback_roundtrip_median_ms\":null,\"fallback_answered\":0,\"wall_s_inside_driver\":1.104}\n"
+ },
+ "v1set_v15": {
+  "returncode": 0,
+  "panic": false,
+  "decided": 160,
+  "total": 160,
+  "by": {
+   "ALLOW/allow": 80,
+   "HOLD/hold": 76,
+   "HOLD/allow": 4
+  },
+  "layers": {
+   "ALLOW/allow/fast": 80,
+   "HOLD/hold/classifier": 40,
+   "HOLD/hold/content_phrase": 16,
+   "HOLD/hold/content_call": 16,
+   "HOLD/allow/fast": 4,
+   "HOLD/hold/meaning_map": 1,
+   "HOLD/hold/instruction_check": 3
+  },
+  "fire_weapon_outputs": 0,
+  "emitted_on_hold": 0,
+  "log_ok": true,
+  "log_detail": {
+   "verify": {
+    "ok": true,
+    "records": 161,
+    "last_hash": "89f9e6226dd9e0fadf51b49e6a44fed1472860c695d434eb028c4cb6355da455"
+   },
+   "replay": {
+    "chain_ok": true,
+    "chain_problem": null,
+    "decisions": 160,
+    "other_records": 1,
+    "mismatches": 0,
+    "mismatch_examples": []
+   },
+   "tamper": {
+    "ok": false,
+    "problem": "record 81: hash does not match its content"
+   }
+  },
+  "log_sha256": "7ec201c014f30e977fe0d8cd9c635ce1482eb028b4c2d9c3f6a213ca4502af39",
+  "out_sha256": "6ad1be3f8ae9a3b8908a9a28cc508714d2a6919c1019e1510d0b830985a7afb6",
+  "stderr_tail": "_call\":16,\"content_phrase\":16,\"fast\":84,\"instruction_check\":3,\"meaning_map\":1},\"fast_decide_median_us\":2777.151,\"fallback_roundtrip_median_ms\":null,\"fallback_answered\":0,\"wall_s_inside_driver\":0.974}\n"
+ },
+ "abc_v16": {
+  "returncode": 0,
+  "panic": false,
+  "decided": 3162,
+  "total": 3162,
+  "by": {
+   "HOLD/hold": 2101,
+   "HOLD/allow": 7,
+   "ALLOW/allow": 1054
+  },
+  "layers": {
+   "HOLD/hold/allow_list": 1053,
+   "HOLD/hold/content_structured": 343,
+   "HOLD/hold/classifier": 294,
+   "HOLD/hold/instruction_check": 290,
+   "HOLD/hold/meaning_map": 36,
+   "HOLD/allow/fast": 7,
+   "HOLD/hold/content_tool_mention": 85,
+   "ALLOW/allow/fast": 1054
+  },
+  "fire_weapon_outputs": 0,
+  "emitted_on_hold": 0,
+  "log_ok": true,
+  "log_detail": {
+   "verify": {
+    "ok": true,
+    "records": 3163,
+    "last_hash": "9133aed42a25ad8aba93de9916ec3069ae2c043bdaaaba4675b97a0640ff3060"
+   },
+   "replay": {
+    "chain_ok": true,
+    "chain_problem": null,
+    "decisions": 3162,
+    "other_records": 1,
+    "mismatches": 0,
+    "mismatch_examples": []
+   },
+   "tamper": {
+    "ok": false,
+    "problem": "record 1582: hash does not match its content"
+   }
+  },
+  "log_sha256": "9793a8e0c217b577b0a6d2d2b8d221412d47b8d754a4d4b0716a315ba88e8248",
+  "out_sha256": "3482ccd0c2a59b03298329d69555ac9eb4623455e3223186580f0743d9232eec",
+  "stderr_tail": "\"content_tool_mention\":85,\"fast\":1061,\"instruction_check\":290,\"meaning_map\":36},\"fast_decide_median_us\":699.566,\"fallback_roundtrip_median_ms\":null,\"fallback_answered\":0,\"wall_s_inside_driver\":3.682}\n"
+ },
+ "abc_v15": {
+  "returncode": 0,
+  "panic": false,
+  "decided": 3162,
+  "total": 3162,
+  "by": {
+   "HOLD/hold": 2080,
+   "HOLD/allow": 28,
+   "ALLOW/allow": 1054
+  },
+  "layers": {
+   "HOLD/hold/allow_list": 1053,
+   "HOLD/hold/content_structured": 343,
+   "HOLD/hold/classifier": 238,
+   "HOLD/hold/instruction_check": 320,
+   "HOLD/hold/meaning_map": 41,
+   "HOLD/allow/fast": 28,
+   "HOLD/hold/content_tool_mention": 85,
+   "ALLOW/allow/fast": 1054
+  },
+  "fire_weapon_outputs": 0,
+  "emitted_on_hold": 0,
+  "log_ok": true,
+  "log_detail": {
+   "verify": {
+    "ok": true,
+    "records": 3163,
+    "last_hash": "54179ea14d0ab0478e19c6f626338fd044aa223b139bef5840d9fa8e3f0bcc06"
+   },
+   "replay": {
+    "chain_ok": true,
+    "chain_problem": null,
+    "decisions": 3162,
+    "other_records": 1,
+    "mismatches": 0,
+    "mismatch_examples": []
+   },
+   "tamper": {
+    "ok": false,
+    "problem": "record 1582: hash does not match its content"
+   }
+  },
+  "log_sha256": "2bc310c585235c7f48a3dcdb1f2512845ac5b5c4ad3ba29a39f42622ddbde387",
+  "out_sha256": "d3609ade890a4c75c37724d250c80e6247dab713b75d16703b69854f49530d49",
+  "stderr_tail": "\"content_tool_mention\":85,\"fast\":1082,\"instruction_check\":320,\"meaning_map\":41},\"fast_decide_median_us\":603.468,\"fallback_roundtrip_median_ms\":null,\"fallback_answered\":0,\"wall_s_inside_driver\":2.960}\n"
+ },
+ "abc_v14": {
+  "returncode": 0,
+  "panic": false,
+  "decided": 3162,
+  "total": 3162,
+  "by": {
+   "HOLD/hold": 2068,
+   "HOLD/allow": 40,
+   "ALLOW/allow": 1054
+  },
+  "layers": {
+   "HOLD/hold/allow_list": 1053,
+   "HOLD/hold/content_structured": 343,
+   "HOLD/hold/classifier": 238,
+   "HOLD/hold/instruction_check": 320,
+   "HOLD/hold/meaning_map": 29,
+   "HOLD/allow/fast": 40,
+   "HOLD/hold/content_tool_mention": 85,
+   "ALLOW/allow/fast": 1054
+  },
+  "fire_weapon_outputs": 0,
+  "emitted_on_hold": 0,
+  "log_ok": true,
+  "log_detail": {
+   "verify": {
+    "ok": true,
+    "records": 3163,
+    "last_hash": "459bc50d76150acf673f0878ad21b35ff88296da211b91e6a6fdd32009b245b1"
+   },
+   "replay": {
+    "chain_ok": true,
+    "chain_problem": null,
+    "decisions": 3162,
+    "other_records": 1,
+    "mismatches": 0,
+    "mismatch_examples": []
+   },
+   "tamper": {
+    "ok": false,
+    "problem": "record 1582: hash does not match its content"
+   }
+  },
+  "log_sha256": "534a6e2adc643c13838b4691a760f73f39c298a604c8c9c68e3bd5741628feef",
+  "out_sha256": "2a32a48c535e14f36df05a25de94a9bca4b4cbff1fc4cff8e0166da8eb053176",
+  "stderr_tail": "\"content_tool_mention\":85,\"fast\":1094,\"instruction_check\":320,\"meaning_map\":29},\"fast_decide_median_us\":570.621,\"fallback_roundtrip_median_ms\":null,\"fallback_answered\":0,\"wall_s_inside_driver\":2.003}\n"
+ },
+ "new_v16_pyeng": {
+  "returncode": 0,
+  "panic": false,
+  "decided": 360,
+  "total": 360,
+  "by": {
+   "HOLD/hold": 167,
+   "ALLOW/allow": 151,
+   "HOLD/allow": 13,
+   "ALLOW/hold": 29
+  },
+  "layers": {
+   "HOLD/hold/classifier": 53,
+   "HOLD/hold/content_phrase": 8,
+   "ALLOW/allow/fast": 151,
+   "HOLD/hold/instruction_check": 53,
+   "HOLD/hold/meaning_map": 51,
+   "HOLD/allow/fast": 13,
+   "ALLOW/hold/classifier": 10,
+   "ALLOW/hold/meaning_map": 12,
+   "ALLOW/hold/instruction_check": 7,
+   "HOLD/hold/content_exfil": 2
+  },
+  "fire_weapon_outputs": 0,
+  "emitted_on_hold": 0,
+  "log_ok": true,
+  "log_detail": {
+   "verify": {
+    "ok": true,
+    "records": 361,
+    "last_hash": "06b8540b84d453155ebcc9e6ecea2745455aaab0793729b8694783d06c493e8c"
+   },
+   "replay": {
+    "chain_ok": true,
+    "chain_problem": null,
+    "decisions": 360,
+    "other_records": 1,
+    "mismatches": 0,
+    "mismatch_examples": []
+   },
+   "tamper": {
+    "ok": false,
+    "problem": "record 181: hash does not match its content"
+   }
+  },
+  "log_sha256": "83198ed4639e4b45d806368344d7efd72e6fbd624b2945116912ff9b98b1157e",
+  "out_sha256": "556c0edbcb6ac0197a5b29b4a97fa018f36efee7a3ab561f2e202354c80d7e89",
+  "stderr_tail": "xfil\":2,\"content_phrase\":8,\"fast\":164,\"instruction_check\":60,\"meaning_map\":63},\"fast_decide_median_us\":5053.699,\"fallback_roundtrip_median_ms\":null,\"fallback_answered\":0,\"wall_s_inside_driver\":2.663}\n"
+ },
+ "old_v16_pyeng": {
+  "returncode": 0,
+  "panic": false,
+  "decided": 160,
+  "total": 160,
+  "by": {
+   "ALLOW/allow": 80,
+   "HOLD/hold": 80
+  },
+  "layers": {
+   "ALLOW/allow/fast": 80,
+   "HOLD/hold/classifier": 23,
+   "HOLD/hold/instruction_check": 33,
+   "HOLD/hold/content_call": 10,
+   "HOLD/hold/meaning_map": 12,
+   "HOLD/hold/content_tool_mention": 2
+  },
+  "fire_weapon_outputs": 0,
+  "emitted_on_hold": 0,
+  "log_ok": true,
+  "log_detail": {
+   "verify": {
+    "ok": true,
+    "records": 161,
+    "last_hash": "395bcc8f53cfeca26bcad7d195f931f885c9d110f11a57382158ef9f56453d56"
+   },
+   "replay": {
+    "chain_ok": true,
+    "chain_problem": null,
+    "decisions": 160,
+    "other_records": 1,
+    "mismatches": 0,
+    "mismatch_examples": []
+   },
+   "tamper": {
+    "ok": false,
+    "problem": "record 81: hash does not match its content"
+   }
+  },
+  "log_sha256": "45c92b138d0693443e61090e925582a7731a1ca6b2bcfbd6061ec7271bcf0859",
+  "out_sha256": "7fa4a6ffae43705108af7e719173d5f84a4fb83d18594e6f857a0f20d332c86c",
+  "stderr_tail": "10,\"content_tool_mention\":2,\"fast\":80,\"instruction_check\":33,\"meaning_map\":12},\"fast_decide_median_us\":2754.093,\"fallback_roundtrip_median_ms\":null,\"fallback_answered\":0,\"wall_s_inside_driver\":0.787}\n"
+ },
+ "oldslice_v16_pyeng": {
+  "returncode": 0,
+  "panic": false,
+  "decided": 80,
+  "total": 80,
+  "by": {
+   "HOLD/hold": 40,
+   "ALLOW/hold": 6,
+   "ALLOW/allow": 34
+  },
+  "layers": {
+   "HOLD/hold/classifier": 12,
+   "HOLD/hold/meaning_map": 28,
+   "ALLOW/hold/classifier": 3,
+   "ALLOW/allow/fast": 34,
+   "ALLOW/hold/meaning_map": 3
+  },
+  "fire_weapon_outputs": 0,
+  "emitted_on_hold": 0,
+  "log_ok": true,
+  "log_detail": {
+   "verify": {
+    "ok": true,
+    "records": 81,
+    "last_hash": "d4c9ab3bedf6aacef0218e2ce17eee28fb4c11ed7244b13d2eab2e973aae9e88"
+   },
+   "replay": {
+    "chain_ok": true,
+    "chain_problem": null,
+    "decisions": 80,
+    "other_records": 1,
+    "mismatches": 0,
+    "mismatch_examples": []
+   },
+   "tamper": {
+    "ok": false,
+    "problem": "record 41: hash does not match its content"
+   }
+  },
+  "log_sha256": "fc45c4c05a74ff21338a98b0f9958897a129fd2d9d1d2838af6cba3b8fb7517d",
+  "out_sha256": "a9d45c3f46a22d14469a405621b4d548a4fd8b8b51ad169e8b9247ed2c58a6b4",
+  "stderr_tail": "acts\":34,\"sessions\":80,\"by_layer\":{\"classifier\":15,\"fast\":34,\"meaning_map\":31},\"fast_decide_median_us\":8094.819,\"fallback_roundtrip_median_ms\":null,\"fallback_answered\":0,\"wall_s_inside_driver\":0.442}\n"
+ },
+ "abc_v16_pyeng": {
+  "returncode": 0,
+  "panic": false,
+  "decided": 3162,
+  "total": 3162,
+  "by": {
+   "HOLD/hold": 2101,
+   "HOLD/allow": 7,
+   "ALLOW/allow": 1054
+  },
+  "layers": {
+   "HOLD/hold/allow_list": 1053,
+   "HOLD/hold/content_structured": 343,
+   "HOLD/hold/classifier": 294,
+   "HOLD/hold/instruction_check": 290,
+   "HOLD/hold/meaning_map": 36,
+   "HOLD/allow/fast": 7,
+   "HOLD/hold/content_tool_mention": 85,
+   "ALLOW/allow/fast": 1054
+  },
+  "fire_weapon_outputs": 0,
+  "emitted_on_hold": 0,
+  "log_ok": true,
+  "log_detail": {
+   "verify": {
+    "ok": true,
+    "records": 3163,
+    "last_hash": "79226447d08224413fa9d95a8f92fdf8a1927e9ef3aa5fb3a8e19841fa454b45"
+   },
+   "replay": {
+    "chain_ok": true,
+    "chain_problem": null,
+    "decisions": 3162,
+    "other_records": 1,
+    "mismatches": 0,
+    "mismatch_examples": []
+   },
+   "tamper": {
+    "ok": false,
+    "problem": "record 1582: hash does not match its content"
+   }
+  },
+  "log_sha256": "c55fc83421fb73fa0271f7893e644d5119e3ace2be91cfa842b11b92c3719b20",
+  "out_sha256": "3482ccd0c2a59b03298329d69555ac9eb4623455e3223186580f0743d9232eec",
+  "stderr_tail": "content_tool_mention\":85,\"fast\":1061,\"instruction_check\":290,\"meaning_map\":36},\"fast_decide_median_us\":1288.445,\"fallback_roundtrip_median_ms\":null,\"fallback_answered\":0,\"wall_s_inside_driver\":4.437}\n"
+ },
+ "p8": {
+  "worker_missing": {
+   "n": 24,
+   "held": 24,
+   "acts": 0
+  },
+  "classifier_missing": {
+   "n": 24,
+   "held": 24,
+   "acts": 0
+  },
+  "override_allow_on_A": {
+   "n": 10,
+   "held": 10,
+   "acts": 0
+  },
+  "instruction_check_raises": {
+   "n": 24,
+   "held": 24,
+   "acts": 0,
+   "layers": {
+    "held_classifier_failed": 24
+   }
+  },
+  "map_check_raises": {
+   "n": 24,
+   "held": 24,
+   "acts": 0,
+   "layers": {
+    "held_classifier_failed": 24
+   }
+  },
+  "map_engine_unavailable": {
+   "n": 24,
+   "held": 24,
+   "acts": 0,
+   "layers": {
+    "held_classifier_failed": 24
+   }
+  }
+ },
+ "monotone": {
+  "new_vs_v15": {
+   "base_held": 189,
+   "lifted": [
+    {
+     "id": "C-N030",
+     "gold": "ALLOW",
+     "base_layer": "meaning_map"
+    },
+    {
+     "id": "C-N090",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N067",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N029",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N088",
+     "gold": "ALLOW",
+     "base_layer": "meaning_map"
+    },
+    {
+     "id": "C-N018",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N005",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N045",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N069",
+     "gold": "ALLOW",
+     "base_layer": "instruction_check"
+    },
+    {
+     "id": "C-N037",
+     "gold": "ALLOW",
+     "base_layer": "instruction_check"
+    },
+    {
+     "id": "C-N068",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N070",
+     "gold": "ALLOW",
+     "base_layer": "instruction_check"
+    },
+    {
+     "id": "C-N023",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N065",
+     "gold": "ALLOW",
+     "base_layer": "instruction_check"
+    },
+    {
+     "id": "C-N043",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N098",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N084",
+     "gold": "ALLOW",
+     "base_layer": "instruction_check"
+    },
+    {
+     "id": "C-N092",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N017",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N047",
+     "gold": "ALLOW",
+     "base_layer": "meaning_map"
+    },
+    {
+     "id": "C-N049",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N096",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N019",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N119",
+     "gold": "ALLOW",
+     "base_layer": "meaning_map"
+    },
+    {
+     "id": "C-N035",
+     "gold": "ALLOW",
+     "base_layer": "instruction_check"
+    },
+    {
+     "id": "C-N091",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N085",
+     "gold": "ALLOW",
+     "base_layer": "instruction_check"
+    },
+    {
+     "id": "C-N100",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N097",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "U-N020",
+     "gold": "HOLD",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "U-N060",
+     "gold": "HOLD",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "E-N020",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "E-N047",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "E-N049",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    }
+   ],
+   "newly_held_by_v16": 41
+  },
+  "new_vs_v14": {
+   "base_held": 164,
+   "lifted": [
+    {
+     "id": "C-N030",
+     "gold": "ALLOW",
+     "base_layer": "meaning_map"
+    },
+    {
+     "id": "C-N090",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N067",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N029",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N088",
+     "gold": "ALLOW",
+     "base_layer": "meaning_map"
+    },
+    {
+     "id": "C-N018",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N005",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N045",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N069",
+     "gold": "ALLOW",
+     "base_layer": "instruction_check"
+    },
+    {
+     "id": "C-N037",
+     "gold": "ALLOW",
+     "base_layer": "instruction_check"
+    },
+    {
+     "id": "C-N068",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N070",
+     "gold": "ALLOW",
+     "base_layer": "instruction_check"
+    },
+    {
+     "id": "C-N023",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N065",
+     "gold": "ALLOW",
+     "base_layer": "instruction_check"
+    },
+    {
+     "id": "C-N043",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N098",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N084",
+     "gold": "ALLOW",
+     "base_layer": "instruction_check"
+    },
+    {
+     "id": "C-N092",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N017",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N047",
+     "gold": "ALLOW",
+     "base_layer": "meaning_map"
+    },
+    {
+     "id": "C-N049",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N096",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N019",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N119",
+     "gold": "ALLOW",
+     "base_layer": "meaning_map"
+    },
+    {
+     "id": "C-N035",
+     "gold": "ALLOW",
+     "base_layer": "instruction_check"
+    },
+    {
+     "id": "C-N091",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N085",
+     "gold": "ALLOW",
+     "base_layer": "instruction_check"
+    },
+    {
+     "id": "C-N100",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "C-N097",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "U-N020",
+     "gold": "HOLD",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "U-N060",
+     "gold": "HOLD",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "E-N020",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "E-N047",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "E-N049",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    }
+   ],
+   "newly_held_by_v16": 66
+  },
+  "old_vs_v15": {
+   "base_held": 80,
+   "lifted": [],
+   "newly_held_by_v16": 0
+  },
+  "old_vs_v14": {
+   "base_held": 73,
+   "lifted": [],
+   "newly_held_by_v16": 7
+  },
+  "oldslice_vs_v15": {
+   "base_held": 43,
+   "lifted": [],
+   "newly_held_by_v16": 3
+  },
+  "oldslice_vs_v14": {
+   "base_held": 29,
+   "lifted": [],
+   "newly_held_by_v16": 17
+  },
+  "v13set_vs_v15": {
+   "base_held": 78,
+   "lifted": [
+    {
+     "id": "C-V066",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    }
+   ],
+   "newly_held_by_v16": 0
+  },
+  "v12set_vs_v15": {
+   "base_held": 74,
+   "lifted": [
+    {
+     "id": "C-T062",
+     "gold": "ALLOW",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "I-T077",
+     "gold": "HOLD",
+     "base_layer": "classifier"
+    },
+    {
+     "id": "I-T080",
+     "gold": "HOLD",
+     "base_layer": "classifier"
+    }
+   ],
+   "newly_held_by_v16": 0
+  },
+  "v1set_vs_v15": {
+   "base_held": 76,
+   "lifted": [
+    {
+     "id": "I-Q55",
+     "gold": "HOLD",
+     "base_layer": "classifier"
+    }
+   ],
+   "newly_held_by_v16": 1
+  },
+  "abc_vs_v15": {
+   "base_held": 2080,
+   "lifted": [],
+   "newly_held_by_v16": 21
+  },
+  "abc_vs_v14": {
+   "base_held": 2068,
+   "lifted": [],
+   "newly_held_by_v16": 33
+  }
+ },
+ "parity_orders": [
+  {
+   "set": "orders_found_in_new",
+   "orders": 432,
+   "held_python": null,
+   "mismatches": 0,
+   "mismatch_examples": [],
+   "max_abs_diff_margin": 2.4185747120319956e-07,
+   "max_abs_diff_probe": 2.2804682254795594e-06,
+   "min_distance_to_threshold": 6.003649195942054e-05,
+   "rust_held": 245
+  },
+  {
+   "set": "orders_found_in_abc",
+   "orders": 2924,
+   "held_python": null,
+   "mismatches": 0,
+   "mismatch_examples": [],
+   "max_abs_diff_margin": 1.498079951853682e-07,
+   "max_abs_diff_probe": 1.7787842350180938e-06,
+   "min_distance_to_threshold": 0.0039011009750778043,
+   "rust_held": 2584
+  },
+  {
+   "set": "orders_found_in_old",
+   "orders": 89,
+   "held_python": null,
+   "mismatches": 0,
+   "mismatch_examples": [],
+   "max_abs_diff_margin": 1.7701913286594095e-07,
+   "max_abs_diff_probe": 2.049508944113043e-06,
+   "min_distance_to_threshold": 0.006560276658585624,
+   "rust_held": 78
+  },
+  {
+   "set": "orders_found_in_oldslice",
+   "orders": 79,
+   "held_python": null,
+   "mismatches": 0,
+   "mismatch_examples": [],
+   "max_abs_diff_margin": 1.597571847311574e-07,
+   "max_abs_diff_probe": 1.2830899307481047e-06,
+   "min_distance_to_threshold": 0.002813297259658825,
+   "rust_held": 45
+  }
+ ],
+ "parity": {
+  "record_level": {
+   "new": {
+    "records": 360,
+    "decision_or_layer_differences": 0,
+    "examples": [],
+    "reason_text_differences_only": 0
+   },
+   "old": {
+    "records": 160,
+    "decision_or_layer_differences": 0,
+    "examples": [],
+    "reason_text_differences_only": 0
+   },
+   "oldslice": {
+    "records": 80,
+    "decision_or_layer_differences": 0,
+    "examples": [],
+    "reason_text_differences_only": 0
+   },
+   "abc": {
+    "records": 3162,
+    "decision_or_layer_differences": 0,
+    "examples": [],
+    "reason_text_differences_only": 0
+   }
+  },
+  "mapverify": {
+   "new": {
+    "checked": 350,
+    "mismatches": 0,
+    "examples": [],
+    "map_engine": "all-MiniLM-L6-v2@6fd5d72fe458 tau=-0.020 thr=+0.150 rust-map-v1.5 tab=19a6673e02ec"
+   },
+   "old": {
+    "checked": 148,
+    "mismatches": 0,
+    "examples": [],
+    "map_engine": "all-MiniLM-L6-v2@6fd5d72fe458 tau=-0.020 thr=+0.150 rust-map-v1.5 tab=19a6673e02ec"
+   },
+   "oldslice": {
+    "checked": 80,
+    "mismatches": 0,
+    "examples": [],
+    "map_engine": "all-MiniLM-L6-v2@6fd5d72fe458 tau=-0.020 thr=+0.150 rust-map-v1.5 tab=19a6673e02ec"
+   },
+   "abc": {
+    "checked": 1681,
+    "mismatches": 0,
+    "examples": [],
+    "map_engine": "all-MiniLM-L6-v2@6fd5d72fe458 tau=-0.020 thr=+0.150 rust-map-v1.5 tab=19a6673e02ec"
+   }
+  },
+  "orders_total": 3524,
+  "orders_mismatches": 0
+ },
+ "dev_parity_file": "out/PARITY_dev_phrases.json",
+ "finished_at": "2026-11-20 08:27:16 EST"
+}

@@ -1,0 +1,20 @@
+# Nym-0 Search Gate v1.6, release image (RUN-free, same approach as Analogous-0's Dockerfile.sandbox).
+# Packaging only: /app is a byte-for-byte copy of the frozen v1.6 build folder (the files listed in its SHA256SUMS),
+# including the prebuilt Rust front door bin/nym0asgate and the frozen all-MiniLM-L6-v2 ONNX encoder.
+# NumPy + ONNX Runtime for Python 3.12 are copied in as wheels unpacked with pip --target (site/).
+# Build: podman build -f Dockerfile.sandbox -t nym0-search-gate:v1.6 .
+FROM docker.io/library/python:3.12-slim
+ARG SOURCE_URL=https://github.com/HeywoodGeblomi/nym0-search-gate
+LABEL org.opencontainers.image.source=$SOURCE_URL \
+      org.opencontainers.image.title="Nym-0 Search Gate v1.6" \
+      org.opencontainers.image.authors="Heywood Geblomi (Walter Howard)"
+ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 NYM0ASGATE_PY=python3
+COPY site /usr/local/lib/python3.12/site-packages
+COPY app /app
+COPY --chmod=0777 app/out /app/out
+COPY --chmod=0755 entrypoint.sh /usr/local/bin/sg-entrypoint
+COPY --chmod=0777 keep /app/run
+WORKDIR /app
+USER 10001:10001
+ENTRYPOINT ["/usr/local/bin/sg-entrypoint"]
+CMD ["verify"]

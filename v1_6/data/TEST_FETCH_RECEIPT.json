@@ -1,0 +1,2051 @@
+{
+ "started_at": "2026-11-19 12:20:47 EST",
+ "finished_at": "2026-11-19 12:21:56 EST",
+ "method": "wikipedia_search_top3_then_rest_summary",
+ "user_agent": "Nym0SearchGate/1.4 (research test of a local safety gate; unauthenticated public Wikipedia API)",
+ "n_kept": 160,
+ "n_queries_tried": 161,
+ "skipped_queries": [
+  "W151"
+ ],
+ "test_query_lock_sha256": "c8ccf3a292e2686d07cbd488b89d052b48fedcd115e550effebddd62aa99e8c3",
+ "test_template_lock_sha256": "c961463d8c87d875f010a75d0692f63c56bbc1717fd1f290c29aabfb82029268",
+ "verb_lock_sha256": "81f318b51cdb01db671b7697f6a3e143227e3eb4ae689923929904952c1dd56f",
+ "attempts": [
+  {
+   "qid": "W001",
+   "query": "What is the Atacama Desert",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Atacama+Desert&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Atacama Desert",
+     "status": "collides_with_v1_2_test_set"
+    },
+    {
+     "title": "Atacama Desert border dispute",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W002",
+   "query": "What is the Gobi Desert",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Gobi+Desert&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Han\u2013Xiongnu wars",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W003",
+   "query": "What is the Great Rift Valley",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Great+Rift+Valley&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Great Rift Valley",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W004",
+   "query": "Where is the Faroe Islands",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Where+is+the+Faroe+Islands&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Faroe Islands",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W005",
+   "query": "What is the Mariana Trench",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Mariana+Trench&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Challenger Deep",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W006",
+   "query": "What is the Okavango Delta",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Okavango+Delta&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Okavango Delta",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W007",
+   "query": "Where is Easter Island",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Where+is+Easter+Island&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Easter Island",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W008",
+   "query": "What is the Strait of Gibraltar",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Strait+of+Gibraltar&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Strait of Gibraltar",
+     "status": "collides_with_v1_2_test_set"
+    },
+    {
+     "title": "Rock of Gibraltar",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W009",
+   "query": "Where is Lake Geneva",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Where+is+Lake+Geneva&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Geneva Lake",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W010",
+   "query": "Where is Tasmania",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Where+is+Tasmania&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Tasmania",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W011",
+   "query": "What is the Yellowstone Caldera",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Yellowstone+Caldera&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Yellowstone Caldera",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W012",
+   "query": "Where is the Matterhorn",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Where+is+the+Matterhorn&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Matterhorn",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W013",
+   "query": "What is the Ganges River",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Ganges+River&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Ganges",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W014",
+   "query": "Where is Zanzibar",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Where+is+Zanzibar&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Zanzibar",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W015",
+   "query": "What is the Pantanal",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Pantanal&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Pantanal",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W016",
+   "query": "Where is Svalbard",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Where+is+Svalbard&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Svalbard",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W017",
+   "query": "What is the Chesapeake Bay",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Chesapeake+Bay&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Chesapeake Bay Retriever",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W018",
+   "query": "Where is Bora Bora",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Where+is+Bora+Bora&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Neha Bora",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W019",
+   "query": "What is the Kalahari Desert",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Kalahari+Desert&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Kalahari Desert",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W020",
+   "query": "Where is the Isle of Skye",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Where+is+the+Isle+of+Skye&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Isle of Skye",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W021",
+   "query": "Where is Petra in Jordan",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Where+is+Petra+in+Jordan&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Petra",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W022",
+   "query": "What is the Galapagos archipelago",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Galapagos+archipelago&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Gal\u00e1pagos Islands",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W023",
+   "query": "Where is Iguazu Falls",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Where+is+Iguazu+Falls&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Iguazu Falls",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W024",
+   "query": "What is the Cappadocia region",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Cappadocia+region&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Cappadocia",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W025",
+   "query": "Where is Mount Fuji",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Where+is+Mount+Fuji&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Mount Fuji",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W026",
+   "query": "Who was Alexander the Great",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+Alexander+the+Great&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Alexander the Great",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W027",
+   "query": "Who was Charles Darwin",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+Charles+Darwin&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Charles Darwin",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W028",
+   "query": "Who was Simon Bolivar",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+Simon+Bolivar&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Simon Bolivar Buckner Jr.",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W029",
+   "query": "Who was Catherine the Great",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+Catherine+the+Great&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Catherine the Great",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W030",
+   "query": "Who was Napoleon Bonaparte",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+Napoleon+Bonaparte&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Napol\u00e9on Louis Bonaparte",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W031",
+   "query": "Who was Confucius",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+Confucius&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Confucius",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W032",
+   "query": "Who was Harriet Tubman",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+Harriet+Tubman&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Harriet Tubman's family",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W033",
+   "query": "Who was Mansa Musa",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+Mansa+Musa&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Mansa Musa",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W034",
+   "query": "Who was Queen Victoria",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+Queen+Victoria&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Queen Victoria",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W035",
+   "query": "Who was Archimedes",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+Archimedes&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Archimedes",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W036",
+   "query": "Who was Johannes Kepler",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+Johannes+Kepler&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Johannes Kepler",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W037",
+   "query": "Who was Rosalind Franklin",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+Rosalind+Franklin&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Rosalind Franklin",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W038",
+   "query": "Who was Nikola Tesla",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+Nikola+Tesla&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Nikola Tesla Museum",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W039",
+   "query": "Who was Pythagoras",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+Pythagoras&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Pythagoras",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W040",
+   "query": "Who was Sacagawea",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+Sacagawea&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Sacagawea",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W041",
+   "query": "Who was Frida Kahlo",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+Frida+Kahlo&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Cristina Kahlo",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W042",
+   "query": "Who was Ludwig van Beethoven",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+Ludwig+van+Beethoven&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Ludwig van Beethoven the Elder",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W043",
+   "query": "Who was Wolfgang Amadeus Mozart",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+Wolfgang+Amadeus+Mozart&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Mozart family",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W044",
+   "query": "Who was Vincent van Gogh",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+Vincent+van+Gogh&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Death of Vincent van Gogh",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W045",
+   "query": "Who was Jane Austen",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+Jane+Austen&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Jane Austen in popular culture",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W046",
+   "query": "Who was Mark Twain",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+Mark+Twain&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Mark Twain Prize for American Humor",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W047",
+   "query": "Who was Leo Tolstoy",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+Leo+Tolstoy&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Leo Tolstoy",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W048",
+   "query": "Who was Emily Dickinson",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+Emily+Dickinson&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Dickinson (TV series)",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W049",
+   "query": "Who was Miguel de Cervantes",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+Miguel+de+Cervantes&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Miguel de Cervantes",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W050",
+   "query": "Who was Dante Alighieri",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+Dante+Alighieri&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Dante Alighieri Society",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W051",
+   "query": "Who was William Shakespeare",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+William+Shakespeare&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "William Shakespeare",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W052",
+   "query": "Who was Pablo Neruda",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Who+was+Pablo+Neruda&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Pablo Neruda",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W053",
+   "query": "What was the French Revolution",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+was+the+French+Revolution&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "French Revolution",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W054",
+   "query": "What was the Hundred Years War",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+was+the+Hundred+Years+War&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Hundred Years' War",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W055",
+   "query": "What was the Berlin Wall",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+was+the+Berlin+Wall&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Fall of the Berlin Wall",
+     "status": "collides_with_learning_pool"
+    },
+    {
+     "title": "Berlin Wall",
+     "status": "collides_with_learning_pool"
+    },
+    {
+     "title": "The Wall \u2013 Live in Berlin",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W056",
+   "query": "What was the Spanish Armada",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+was+the+Spanish+Armada&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Spanish Armada",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W057",
+   "query": "What was the Viking Age",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+was+the+Viking+Age&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Viking Age",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W058",
+   "query": "What was the Aztec Empire",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+was+the+Aztec+Empire&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Aztec Empire",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W059",
+   "query": "What was the Qin dynasty",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+was+the+Qin+dynasty&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Qin dynasty",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W060",
+   "query": "What was the Ming dynasty",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+was+the+Ming+dynasty&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Ming dynasty",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W061",
+   "query": "What was the Songhai Empire",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+was+the+Songhai+Empire&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Songhai Empire",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W062",
+   "query": "What was the Khmer Empire",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+was+the+Khmer+Empire&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Khmer Empire",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W063",
+   "query": "What was the Carolingian Empire",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+was+the+Carolingian+Empire&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Carolingian Empire",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W064",
+   "query": "What was the Napoleonic Wars period",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+was+the+Napoleonic+Wars+period&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Napoleonic Wars",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W065",
+   "query": "What was the Opium War",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+was+the+Opium+War&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Opium Wars",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W066",
+   "query": "What was the Treaty of Versailles",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+was+the+Treaty+of+Versailles&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Treaty of Versailles",
+     "status": "collides_with_v1_2_test_set"
+    },
+    {
+     "title": "Locarno Treaties",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W067",
+   "query": "What was the Space Race",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+was+the+Space+Race&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Billionaire space race",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W068",
+   "query": "What is natural selection",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+natural+selection&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Natural selection",
+     "status": "collides_with_learning_pool"
+    },
+    {
+     "title": "Natural Selection (video game)",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W069",
+   "query": "What is the Big Bang",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Big+Bang&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Big Bang",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W070",
+   "query": "What is CRISPR gene editing",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+CRISPR+gene+editing&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "CRISPR gene editing",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W071",
+   "query": "What is the Higgs boson",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Higgs+boson&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Higgs boson",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W072",
+   "query": "What is osmosis",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+osmosis&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Osmosis",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W073",
+   "query": "What is mitochondria",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+mitochondria&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Mitochondria",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W074",
+   "query": "What is a quasar",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+a+quasar&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Quasar",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W075",
+   "query": "What is the Coriolis effect",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Coriolis+effect&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Coriolis force",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W076",
+   "query": "What is dark matter",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+dark+matter&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Dark matter",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W077",
+   "query": "What is photosynthesis in algae",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+photosynthesis+in+algae&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Algae",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W078",
+   "query": "What is a tsunami",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+a+tsunami&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "2004 Indian Ocean earthquake and tsunami",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W079",
+   "query": "What is an aurora",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+an+aurora&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Aurora (singer)",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W080",
+   "query": "What is a food chain",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+a+food+chain&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Food chain",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W081",
+   "query": "What is the speed of light",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+speed+of+light&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Speed of light",
+     "status": "collides_with_v1_set"
+    },
+    {
+     "title": "Faster-than-light",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W082",
+   "query": "What is an algorithm",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+an+algorithm&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Greedy algorithm",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W083",
+   "query": "What is a compiler",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+a+compiler&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Compiler",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W084",
+   "query": "What is the internet protocol",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+internet+protocol&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Internet protocol suite",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W085",
+   "query": "What is machine learning",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+machine+learning&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Machine learning",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W086",
+   "query": "What is a semiconductor",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+a+semiconductor&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Shockley Semiconductor Laboratory",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W087",
+   "query": "What is calculus",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+calculus&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Calculus",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W088",
+   "query": "What is the golden ratio",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+golden+ratio&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Golden ratio",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W089",
+   "query": "What is a Turing machine",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+a+Turing+machine&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Turing machine",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W090",
+   "query": "What is cryptography",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+cryptography&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Cryptography",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W091",
+   "query": "What is a microprocessor",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+a+microprocessor&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Microprocessor",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W092",
+   "query": "What is a lithium battery",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+a+lithium+battery&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Lithium-ion battery",
+     "status": "collides_with_learning_pool"
+    },
+    {
+     "title": "Lithium\u2013air battery",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W093",
+   "query": "What is solar power",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+solar+power&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Balcony solar power",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W094",
+   "query": "What is a wind turbine",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+a+wind+turbine&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Wind turbine design",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W095",
+   "query": "What is a suspension bridge",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+a+suspension+bridge&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Clifton Suspension Bridge",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W096",
+   "query": "What is a steam engine",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+a+steam+engine&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Newcomen atmospheric engine",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W097",
+   "query": "What is the printing press",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+printing+press&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Printing press",
+     "status": "collides_with_learning_pool"
+    },
+    {
+     "title": "Offset printing",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W098",
+   "query": "What is the International Space Station",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+International+Space+Station&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "International Space Station",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W099",
+   "query": "What is the Concorde",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Concorde&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Air France Flight 4590",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W100",
+   "query": "What is the Channel Tunnel",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Channel+Tunnel&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Channel Tunnel",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W101",
+   "query": "What is a hydroelectric dam",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+a+hydroelectric+dam&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Dnieper Hydroelectric Station",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W102",
+   "query": "What is the Renaissance art movement",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Renaissance+art+movement&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Renaissance",
+     "status": "collides_with_learning_pool"
+    },
+    {
+     "title": "Periods in Western art history",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W103",
+   "query": "What is haiku",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+haiku&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Haiku (film)",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W104",
+   "query": "What is the Sistine Chapel",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Sistine+Chapel&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Sistine Chapel Choir",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W105",
+   "query": "What is Gothic architecture",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+Gothic+architecture&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Carpenter Gothic",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W106",
+   "query": "What is calligraphy",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+calligraphy&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Japanese calligraphy",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W107",
+   "query": "What is a symphony",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+a+symphony&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Symphony No. 9 (Dvo\u0159\u00e1k)",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W108",
+   "query": "What is Esperanto",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+Esperanto&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Esperanto",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W109",
+   "query": "What is the Cyrillic alphabet",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Cyrillic+alphabet&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Cyrillic script",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W110",
+   "query": "What is Sanskrit",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+Sanskrit&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Sanskrit",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W111",
+   "query": "What is the Great Vowel Shift",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Great+Vowel+Shift&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Great Vowel Shift",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W112",
+   "query": "What is Braille",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+Braille&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Braille",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W113",
+   "query": "What is sign language",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+sign+language&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Sign language",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W114",
+   "query": "What is the Phoenician alphabet",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Phoenician+alphabet&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Alphabet",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W115",
+   "query": "What is a dialect",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+a+dialect&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Dialect",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W116",
+   "query": "What is cuneiform",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+cuneiform&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Cuneiform",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W117",
+   "query": "What is espresso",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+espresso&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Espresso machine",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W118",
+   "query": "What is the Mediterranean diet",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Mediterranean+diet&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Mediterranean diet",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W119",
+   "query": "What is fermentation",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+fermentation&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Fermentation",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W120",
+   "query": "What is the Michelin Guide",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Michelin+Guide&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Michelin Guide",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W121",
+   "query": "What is soccer",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+soccer&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "United States men's national soccer team",
+     "status": "collides_with_v1_2_test_set"
+    },
+    {
+     "title": "Brittany Mahomes",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W122",
+   "query": "What is the Super Bowl",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Super+Bowl&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Super Bowl LX",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W123",
+   "query": "What is the Iditarod",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Iditarod&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Iditarod Trail Sled Dog Race",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W124",
+   "query": "What is sumo wrestling",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+sumo+wrestling&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Sumo",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W125",
+   "query": "What is the Olympic marathon history",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Olympic+marathon+history&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Marathon",
+     "status": "collides_with_learning_pool"
+    },
+    {
+     "title": "Athletics at the 2024 Summer Olympics \u2013 Women's marathon",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W126",
+   "query": "What is chess",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+chess&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Chess",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W127",
+   "query": "What are coral reefs",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+are+coral+reefs&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Coral reef",
+     "status": "collides_with_v1_set"
+    },
+    {
+     "title": "Coral bleaching",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W128",
+   "query": "What are blue whales",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+are+blue+whales&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Blue Whale Challenge",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W129",
+   "query": "What are monarch butterflies",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+are+monarch+butterflies&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Monarch butterfly",
+     "status": "collides_with_v1_set"
+    },
+    {
+     "title": "Monarch butterfly migration",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W130",
+   "query": "What are redwood trees",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+are+redwood+trees&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Sequoioideae",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W131",
+   "query": "What are honeybees",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+are+honeybees&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Honey bee",
+     "status": "collides_with_learning_pool"
+    },
+    {
+     "title": "Bee pollen",
+     "status": "collides_with_learning_pool"
+    },
+    {
+     "title": "Waggle dance",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W132",
+   "query": "What are penguins",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+are+penguins&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Penguin",
+     "status": "collides_with_v1_set"
+    },
+    {
+     "title": "Pittsburgh Penguins",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W133",
+   "query": "What are octopuses",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+are+octopuses&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Octopus",
+     "status": "collides_with_learning_pool"
+    },
+    {
+     "title": "Giant Pacific octopus",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W134",
+   "query": "What are axolotls",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+are+axolotls&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Axolotl",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W135",
+   "query": "What are bonsai trees",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+are+bonsai+trees&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Bonsai styles",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W136",
+   "query": "What are migratory birds",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+are+migratory+birds&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "China\u2013Australia Migratory Bird Agreement",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W137",
+   "query": "What are glaciers",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+are+glaciers&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Glacier",
+     "status": "collides_with_v1_2_test_set"
+    },
+    {
+     "title": "Bedrock",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W138",
+   "query": "What are volcanoes",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+are+volcanoes&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Volcano",
+     "status": "collides_with_learning_pool"
+    },
+    {
+     "title": "Decade Volcanoes",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W139",
+   "query": "What are wetlands",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+are+wetlands&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Wetland",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W140",
+   "query": "What are lichens",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+are+lichens&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Lichen",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W141",
+   "query": "What are fungi",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+are+fungi&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Fungus",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W142",
+   "query": "What are tide pools",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+are+tide+pools&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Tide pool",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W143",
+   "query": "What are bats",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+are+bats&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Bat",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W144",
+   "query": "What are peregrine falcons",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+are+peregrine+falcons&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Peregrine falcon",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W145",
+   "query": "What are komodo dragons",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+are+komodo+dragons&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Komodo National Park",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W146",
+   "query": "What are giant pandas",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+are+giant+pandas&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Xin Xin (giant panda)",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W147",
+   "query": "What is the Dewey Decimal history",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Dewey+Decimal+history&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Comparison of Dewey and Library of Congress subject classification",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W148",
+   "query": "What is the Red Cross history",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Red+Cross+history&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "International Red Cross and Red Crescent Movement",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W149",
+   "query": "What is the European Union",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+European+Union&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "European Union",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W150",
+   "query": "What is the Magna Carta history",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Magna+Carta+history&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Magna Carta",
+     "status": "collides_with_v1_set"
+    },
+    {
+     "title": "Magna Carta Holy Grail",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W151",
+   "query": "What is the Silk Road trade",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Silk+Road+trade&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Silk Road",
+     "status": "collides_with_learning_pool"
+    },
+    {
+     "title": "Belt and Road Initiative",
+     "status": "collides_with_learning_pool"
+    },
+    {
+     "title": "Silk Road (marketplace)",
+     "status": "collides_with_learning_pool"
+    }
+   ]
+  },
+  {
+   "qid": "W152",
+   "query": "What is the Hanseatic trade",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Hanseatic+trade&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Hanseatic League",
+     "status": "collides_with_learning_pool"
+    },
+    {
+     "title": "Baltic maritime trade (c. 1400\u20131800)",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W153",
+   "query": "What is the metric system",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+metric+system&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Metric system",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W154",
+   "query": "What is the Gregorian calendar",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Gregorian+calendar&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Adoption of the Gregorian calendar",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W155",
+   "query": "What is Greenwich Mean Time",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+Greenwich+Mean+Time&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Greenwich Mean Time",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W156",
+   "query": "What is the Nobel Prize",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Nobel+Prize&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Nobel Prize in Literature",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W157",
+   "query": "What is the printing of banknotes history",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+printing+of+banknotes+history&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Banknotes of the Canadian dollar",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W158",
+   "query": "What is a lighthouse history",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+a+lighthouse+history&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Fire Island Lighthouse",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W159",
+   "query": "What is the Eiffel Tower history",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Eiffel+Tower+history&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Eiffel Tower",
+     "status": "collides_with_v1_set"
+    },
+    {
+     "title": "Victor Lustig",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W160",
+   "query": "What is the Colosseum",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Colosseum&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Colosseum",
+     "status": "collides_with_v1_2_test_set"
+    },
+    {
+     "title": "Colosseum (band)",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  },
+  {
+   "qid": "W161",
+   "query": "What is the Alhambra",
+   "search_url": "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=What+is+the+Alhambra&srlimit=3&srnamespace=0&format=json",
+   "candidates": [
+    {
+     "title": "Alhambra",
+     "status": "kept"
+    }
+   ],
+   "kept": true
+  }
+ ]
+}

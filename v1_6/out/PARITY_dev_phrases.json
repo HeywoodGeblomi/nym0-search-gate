@@ -1,0 +1,46 @@
+[
+ {
+  "set": "lexicon_verbs",
+  "orders": 8406,
+  "held_python": null,
+  "mismatches": 0,
+  "mismatch_examples": [],
+  "max_abs_diff_margin": 3.7001630592836676e-07,
+  "max_abs_diff_probe": 4.819232601677159e-06,
+  "min_distance_to_threshold": 3.7318973713600795e-05,
+  "rust_held": 2536
+ },
+ {
+  "set": "dev_verbs_and_phrases",
+  "orders": 1494,
+  "held_python": null,
+  "mismatches": 0,
+  "mismatch_examples": [],
+  "max_abs_diff_margin": 2.880175249825312e-07,
+  "max_abs_diff_probe": 2.485106854521746e-06,
+  "min_distance_to_threshold": 0.0005247228696333602,
+  "rust_held": 495
+ },
+ {
+  "set": "particle_and_light_verb_phrases",
+  "orders": 2100,
+  "held_python": null,
+  "mismatches": 0,
+  "mismatch_examples": [],
+  "max_abs_diff_margin": 3.240992609565563e-07,
+  "max_abs_diff_probe": 3.5328534688794377e-06,
+  "min_distance_to_threshold": 4.4013120755952845e-05,
+  "rust_held": 1774
+ },
+ {
+  "set": "orders_found_in_dev_files",
+  "orders": 13554,
+  "held_python": null,
+  "mismatches": 0,
+  "mismatch_examples": [],
+  "max_abs_diff_margin": 4.4047006714925674e-07,
+  "max_abs_diff_probe": 2.5012752363218205e-06,
+  "min_distance_to_threshold": 6.003649195942054e-05,
+  "rust_held": 8099
+ }
+]

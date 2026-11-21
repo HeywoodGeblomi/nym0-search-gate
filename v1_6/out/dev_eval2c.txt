@@ -1,0 +1,100 @@
+== v15 19.4
+   dev_set                   63/  100  63.0%
+   old:ALLOW                  0/   80   0.0%
+   old:HOLD                  80/   80 100.0%
+   oldslice:ALLOW             3/   40   7.5%
+   oldslice:HOLD             40/   40 100.0%
+   pool_clean|fit           646/ 1184  54.6%
+   pool_clean|val           308/  524  58.8%
+   pool_inj|fit            1094/ 1184  92.4%
+   pool_inj|val             491/  524  93.7%
+   v15_clean                 35/  120  29.2%
+   v15_everyday              21/   60  35.0%
+   v15_inj                   89/  120  74.2%
+   v15_unseen                41/   60  68.3%
+   wp_clean|fit               2/  998   0.2%
+   wp_clean|val               4/  456   0.9%
+   wp_inj|fit               495/  615  80.5%
+   wp_inj|val               237/  285  83.2%
+   pool_clean_fit by source: {'wikibooks_cookbook': '294/353', 'wb_howto': '259/476', 'wb_game_rules': '48/129', 'wikivoyage': '38/181', 'wikisource_manual': '7/45'}
+   injecagent guard: {'lifted_A': 0, 'lifted_B': 0, 'C_new_holds_from_workers': 0}
+== C0_fixes 24.2
+   dev_set                   63/  100  63.0%
+   old:ALLOW                  0/   80   0.0%
+   old:HOLD                  80/   80 100.0%
+   oldslice:ALLOW             4/   40  10.0%
+   oldslice:HOLD             40/   40 100.0%
+   pool_clean|fit           654/ 1184  55.2%
+   pool_clean|val           310/  524  59.2%
+   pool_inj|fit            1171/ 1184  98.9%
+   pool_inj|val             521/  524  99.4%
+   v15_clean                 35/  120  29.2%
+   v15_everyday              23/   60  38.3%
+   v15_inj                  107/  120  89.2%
+   v15_unseen                58/   60  96.7%
+   wp_clean|fit               2/  998   0.2%
+   wp_clean|val               4/  456   0.9%
+   wp_inj|fit               595/  615  96.7%
+   wp_inj|val               274/  285  96.1%
+   pool_clean_fit by source: {'wikibooks_cookbook': '295/353', 'wb_howto': '263/476', 'wb_game_rules': '48/129', 'wikivoyage': '41/181', 'wikisource_manual': '7/45'}
+   injecagent guard: {'lifted_A': 0, 'lifted_B': 0, 'C_new_holds_from_workers': 0}
+== C1_fixes_waiver 3.4
+   dev_set                   63/  100  63.0%
+   old:ALLOW                  0/   80   0.0%
+   old:HOLD                  80/   80 100.0%
+   oldslice:ALLOW             4/   40  10.0%
+   oldslice:HOLD             40/   40 100.0%
+   pool_clean|fit           397/ 1184  33.5%
+   pool_clean|val           179/  524  34.2%
+   pool_inj|fit            1165/ 1184  98.4%
+   pool_inj|val             508/  524  96.9%
+   v15_clean                 12/  120  10.0%
+   v15_everyday              23/   60  38.3%
+   v15_inj                  107/  120  89.2%
+   v15_unseen                58/   60  96.7%
+   wp_clean|fit               2/  998   0.2%
+   wp_clean|val               4/  456   0.9%
+   wp_inj|fit               595/  615  96.7%
+   wp_inj|val               274/  285  96.1%
+   pool_clean_fit by source: {'wikibooks_cookbook': '55/353', 'wb_howto': '247/476', 'wb_game_rules': '47/129', 'wikivoyage': '41/181', 'wikisource_manual': '7/45'}
+   injecagent guard: {'lifted_A': 0, 'lifted_B': 0, 'C_new_holds_from_workers': 0}
+== C2_fixes_newclf 3.2
+   dev_set                   64/  100  64.0%
+   old:ALLOW                  0/   80   0.0%
+   old:HOLD                  79/   80  98.8%
+   oldslice:ALLOW             5/   40  12.5%
+   oldslice:HOLD             40/   40 100.0%
+   pool_clean|fit           430/ 1184  36.3%
+   pool_clean|val           223/  524  42.6%
+   pool_inj|fit            1170/ 1184  98.8%
+   pool_inj|val             522/  524  99.6%
+   v15_clean                 32/  120  26.7%
+   v15_everyday              20/   60  33.3%
+   v15_inj                  107/  120  89.2%
+   v15_unseen                56/   60  93.3%
+   wp_clean|fit               1/  998   0.1%
+   wp_clean|val               5/  456   1.1%
+   wp_inj|fit               610/  615  99.2%
+   wp_inj|val               281/  285  98.6%
+   pool_clean_fit by source: {'wikibooks_cookbook': '276/353', 'wb_howto': '131/476', 'wb_game_rules': '4/129', 'wikivoyage': '17/181', 'wikisource_manual': '2/45'}
+   injecagent guard: {'lifted_A': 0, 'lifted_B': 0, 'C_new_holds_from_workers': 0}
+== C3_fixes_waiver_newclf 3.4
+   dev_set                   64/  100  64.0%
+   old:ALLOW                  0/   80   0.0%
+   old:HOLD                  79/   80  98.8%
+   oldslice:ALLOW             5/   40  12.5%
+   oldslice:HOLD             40/   40 100.0%
+   pool_clean|fit           192/ 1184  16.2%
+   pool_clean|val           104/  524  19.8%
+   pool_inj|fit            1164/ 1184  98.3%
+   pool_inj|val             509/  524  97.1%
+   v15_clean                 11/  120   9.2%
+   v15_everyday              20/   60  33.3%
+   v15_inj                  107/  120  89.2%
+   v15_unseen                56/   60  93.3%
+   wp_clean|fit               1/  998   0.1%
+   wp_clean|val               5/  456   1.1%
+   wp_inj|fit               610/  615  99.2%
+   wp_inj|val               281/  285  98.6%
+   pool_clean_fit by source: {'wikibooks_cookbook': '50/353', 'wb_howto': '119/476', 'wb_game_rules': '4/129', 'wikivoyage': '17/181', 'wikisource_manual': '2/45'}
+   injecagent guard: {'lifted_A': 0, 'lifted_B': 0, 'C_new_holds_from_workers': 0}

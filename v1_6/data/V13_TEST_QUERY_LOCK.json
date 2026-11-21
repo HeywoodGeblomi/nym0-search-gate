@@ -1,0 +1,410 @@
+{
+ "written_at": "2026-11-19 11:52:44 EST",
+ "queries": [
+  {
+   "qid": "V001",
+   "query": "What is the capital of Mongolia"
+  },
+  {
+   "qid": "V002",
+   "query": "Where is Machu Picchu"
+  },
+  {
+   "qid": "V003",
+   "query": "How long is the Danube River"
+  },
+  {
+   "qid": "V004",
+   "query": "What is the Great Barrier Reef"
+  },
+  {
+   "qid": "V005",
+   "query": "Where is the Sahara Desert located"
+  },
+  {
+   "qid": "V006",
+   "query": "What is the Mid-Atlantic Ridge"
+  },
+  {
+   "qid": "V007",
+   "query": "Which country is Lake Titicaca in"
+  },
+  {
+   "qid": "V008",
+   "query": "Where is the Bosphorus Strait"
+  },
+  {
+   "qid": "V009",
+   "query": "Where is the Amazon rainforest"
+  },
+  {
+   "qid": "V010",
+   "query": "What is the largest lake in Africa"
+  },
+  {
+   "qid": "V011",
+   "query": "What is the capital of Kenya"
+  },
+  {
+   "qid": "V012",
+   "query": "Where is Angkor Wat"
+  },
+  {
+   "qid": "V013",
+   "query": "How was the Grand Canyon formed"
+  },
+  {
+   "qid": "V014",
+   "query": "What is the Dead Sea"
+  },
+  {
+   "qid": "V015",
+   "query": "Where is the Great Wall of China"
+  },
+  {
+   "qid": "V016",
+   "query": "What is the Dewey Decimal system"
+  },
+  {
+   "qid": "V017",
+   "query": "What is a geyser"
+  },
+  {
+   "qid": "V018",
+   "query": "How do glaciers carve valleys"
+  },
+  {
+   "qid": "V019",
+   "query": "What is the Fujita scale"
+  },
+  {
+   "qid": "V020",
+   "query": "What was the Silk Road"
+  },
+  {
+   "qid": "V021",
+   "query": "When was the Magna Carta signed"
+  },
+  {
+   "qid": "V022",
+   "query": "What is a pulsar"
+  },
+  {
+   "qid": "V023",
+   "query": "Who was Genghis Khan"
+  },
+  {
+   "qid": "V024",
+   "query": "What happened at the Battle of Hastings"
+  },
+  {
+   "qid": "V025",
+   "query": "What was the Apollo 11 mission"
+  },
+  {
+   "qid": "V026",
+   "query": "Who was Nelson Mandela"
+  },
+  {
+   "qid": "V027",
+   "query": "What was the Roman Republic"
+  },
+  {
+   "qid": "V028",
+   "query": "Who was Leonardo da Vinci"
+  },
+  {
+   "qid": "V029",
+   "query": "How does photosynthesis work"
+  },
+  {
+   "qid": "V030",
+   "query": "What is the Gutenberg press"
+  },
+  {
+   "qid": "V031",
+   "query": "What is DNA replication"
+  },
+  {
+   "qid": "V032",
+   "query": "How do vaccines work"
+  },
+  {
+   "qid": "V033",
+   "query": "What is the Byzantine Empire"
+  },
+  {
+   "qid": "V034",
+   "query": "Who was Hannibal"
+  },
+  {
+   "qid": "V035",
+   "query": "What is the Peloponnesian War"
+  },
+  {
+   "qid": "V036",
+   "query": "What was the Boston Tea Party"
+  },
+  {
+   "qid": "V037",
+   "query": "What is the Mughal Empire"
+  },
+  {
+   "qid": "V038",
+   "query": "What is a mangrove forest"
+  },
+  {
+   "qid": "V039",
+   "query": "What is quantum entanglement"
+  },
+  {
+   "qid": "V040",
+   "query": "What is the Doppler effect"
+  },
+  {
+   "qid": "V041",
+   "query": "What is the Krebs cycle"
+  },
+  {
+   "qid": "V042",
+   "query": "What is jazz music"
+  },
+  {
+   "qid": "V043",
+   "query": "What is a lunar eclipse"
+  },
+  {
+   "qid": "V044",
+   "query": "What is the Cambrian explosion"
+  },
+  {
+   "qid": "V045",
+   "query": "What is the Beaufort scale"
+  },
+  {
+   "qid": "V046",
+   "query": "What is baroque architecture"
+  },
+  {
+   "qid": "V047",
+   "query": "What is a barometer"
+  },
+  {
+   "qid": "V048",
+   "query": "Who painted Guernica"
+  },
+  {
+   "qid": "V049",
+   "query": "What is the Bolshoi Theatre"
+  },
+  {
+   "qid": "V050",
+   "query": "Who directed Citizen Kane"
+  },
+  {
+   "qid": "V051",
+   "query": "What is the Ottoman Empire"
+  },
+  {
+   "qid": "V052",
+   "query": "What is kabuki theatre"
+  },
+  {
+   "qid": "V053",
+   "query": "What is the Olympic Games"
+  },
+  {
+   "qid": "V054",
+   "query": "Who composed the Moonlight Sonata"
+  },
+  {
+   "qid": "V055",
+   "query": "What is the Venice Biennale"
+  },
+  {
+   "qid": "V056",
+   "query": "Who invented the telephone"
+  },
+  {
+   "qid": "V057",
+   "query": "What is the Statue of Liberty"
+  },
+  {
+   "qid": "V058",
+   "query": "How does a refrigerator work"
+  },
+  {
+   "qid": "V059",
+   "query": "What is a transistor"
+  },
+  {
+   "qid": "V060",
+   "query": "Who founded the Red Cross"
+  },
+  {
+   "qid": "V061",
+   "query": "What is tempura"
+  },
+  {
+   "qid": "V062",
+   "query": "What is the Great Wall of Gorgan"
+  },
+  {
+   "qid": "V063",
+   "query": "What is the Hanging Gardens of Babylon"
+  },
+  {
+   "qid": "V064",
+   "query": "What is the Bessemer process"
+  },
+  {
+   "qid": "V065",
+   "query": "How does a lighthouse work"
+  },
+  {
+   "qid": "V066",
+   "query": "What is the Eiffel Tower"
+  },
+  {
+   "qid": "V067",
+   "query": "What is a monsoon"
+  },
+  {
+   "qid": "V068",
+   "query": "What is the Gulf Stream"
+  },
+  {
+   "qid": "V069",
+   "query": "What are tardigrades"
+  },
+  {
+   "qid": "V070",
+   "query": "What is the Fibonacci sequence"
+  },
+  {
+   "qid": "V071",
+   "query": "Who was Ada Lovelace"
+  },
+  {
+   "qid": "V072",
+   "query": "What is a coral atoll"
+  },
+  {
+   "qid": "V073",
+   "query": "What is the Hanseatic League"
+  },
+  {
+   "qid": "V074",
+   "query": "What is the Taj Mahal"
+  },
+  {
+   "qid": "V075",
+   "query": "What is the Voyager program"
+  },
+  {
+   "qid": "V076",
+   "query": "Who was Galileo Galilei"
+  },
+  {
+   "qid": "V077",
+   "query": "What is the Krakatoa eruption"
+  },
+  {
+   "qid": "V078",
+   "query": "What is the Mayflower"
+  },
+  {
+   "qid": "V079",
+   "query": "What is a sundial"
+  },
+  {
+   "qid": "V080",
+   "query": "What is the Library of Alexandria"
+  },
+  {
+   "qid": "V081",
+   "query": "How does GPS work"
+  },
+  {
+   "qid": "V082",
+   "query": "What is the Trans-Siberian Railway"
+  },
+  {
+   "qid": "V083",
+   "query": "What is the Suez Canal"
+  },
+  {
+   "qid": "V084",
+   "query": "Who was Florence Nightingale"
+  },
+  {
+   "qid": "V085",
+   "query": "What is the Hadron Collider"
+  },
+  {
+   "qid": "V086",
+   "query": "What is a rainbow"
+  },
+  {
+   "qid": "V087",
+   "query": "What is the Hagia Sophia"
+  },
+  {
+   "qid": "V088",
+   "query": "What is the Kyoto Protocol"
+  },
+  {
+   "qid": "V089",
+   "query": "Who was Isaac Newton"
+  },
+  {
+   "qid": "V090",
+   "query": "What is the Bauhaus movement"
+  },
+  {
+   "qid": "V091",
+   "query": "What is basalt rock"
+  },
+  {
+   "qid": "V092",
+   "query": "What is the Marathon race"
+  },
+  {
+   "qid": "V093",
+   "query": "What is the Kon-Tiki expedition"
+  },
+  {
+   "qid": "V094",
+   "query": "What is the Wright brothers flight"
+  },
+  {
+   "qid": "V095",
+   "query": "What is Stonehenge"
+  },
+  {
+   "qid": "V096",
+   "query": "What is the Inca Empire"
+  },
+  {
+   "qid": "V097",
+   "query": "What is the Great Fire of London"
+  },
+  {
+   "qid": "V098",
+   "query": "What is the Andromeda Galaxy"
+  },
+  {
+   "qid": "V099",
+   "query": "What is the Aral Sea"
+  },
+  {
+   "qid": "V100",
+   "query": "What is the Mohs scale"
+  }
+ ],
+ "query_overlap_check": {
+  "v1": 0,
+  "learning": 0,
+  "v1_2_test": 0
+ }
+}
